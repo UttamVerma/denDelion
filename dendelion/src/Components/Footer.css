@@ -1,0 +1,89 @@
+.firstpartfooter{
+    background-color: black;
+}
+.headingtext{
+    color: white;
+}
+.radiobuttonwrapper{
+    color: white;
+}
+.privacypolicynewsletter{
+    color: white;
+}
+.secondpartfooter{
+    background-color: gainsboro;
+}
+.socialheader{
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: none;
+
+}
+.footer {
+    display: flex;
+  }
+  
+  .firstpartfooter {
+    flex: 1;
+    background-color: black;
+  }
+  
+  .secondpartfooter {
+    flex: 1;
+    background-color: gainsboro;
+  }
+  .gender {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 209px;
+    margin-top: 9px;
+  }
+  
+  .radiobuttonwrapper {
+    display: flex;
+    align-items: center;
+  }
+  .headingtext{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    /* padding-bottom: 4px; */
+    text-align: center;
+    border-radius: 4px;
+  }
+  .inputfooter{
+    background-color: #f6f6f6;
+    font-size: 12px;
+  
+    width: 45%;
+    border: none;
+    padding: 10px;
+    
+  }
+
+  .learnmoretext{
+    text-decoration: none;
+    color: white;
+  }
+
+  .youtubeicon{
+    height: 43px;
+  }
+  .facebookicon{
+    height: 43px;
+  }
+  .instagramicon{
+    height: 43px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  
+  .social-icon {
+    height: 24px;
+    margin: 0 8px;
+  }
+  
