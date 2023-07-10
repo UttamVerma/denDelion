@@ -1,0 +1,659 @@
+{
+    "signup":[
+        {
+            "username":"UttamVermaDummy",
+            "e-mail":"xyz@gmail.com"
+        }
+    ],
+    "login":[
+        {
+            "e-mail":"xyz@gmail.com"
+        }
+    ],
+    "favourite":[
+        {
+            "image":"",
+            "name":"",
+            "price":""
+        }
+    ],
+    "cart":[
+        {
+            "image":"dummyimagecart",
+            "name":"dummynamecart", 
+            "price":"dummyprice cart"
+        }
+    ],
+    "checkout":[
+        {
+            "firstname":"",
+            "lastname":"",
+            "adress":"",
+            "state":"",
+            "phone":"",
+            "e-mail":""
+        }
+    ],
+    "man_t-shirts":[
+        {
+            "id":1,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372663005/665/410372663005_1_6137.webp?compress=true&q=70",
+            "price":"₹5,399.00 ₹8,999.00(40% OFF)",
+            "name":"T-JUST-POCKET-CROW BLACK MAN REGULAR T-SHIRT",
+            "discription":"Men's T-shirt made from organic cotton. This regular-fit style has red stripes highlighting the crew neck and a subtle crown logo embroidered on the chest pocket."
+        },
+        {
+            "id":2,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315319021/665/410315319021_1_7704.webp?compress=true&q=70",
+            "price":"₹5,999.00 ₹9,999.00(40% OFF)",
+            "name":"T-DIEGOR-IND SLIM MEN VIOLET T-SHIRT",
+            "discription":"Slim-fit T-shirt cut from cotton jersey. The style has been pigment dyed for a vintage effect and detailed with a puff-print 'Diesel Industry Denim Division' logo on the chest."
+        },
+        {
+            "id":3,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372559006/665/410372559006_1_3604.webp?compress=true&q=70",
+            "price":"₹4,899.00 ₹6,999.00(30% OFF)",
+            "name":"T-DIEGOR-D BLACK MAN SLIM T-SHIRT",
+            "discription":"Men's jersey T-shirt crafted from organic cotton. An essential, slim-fitting style, it's appliquéd with a tiny red 'D' emblem below the crew neckline."
+        },
+        {
+            "id":4,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372695010/665/410372695010_1_5914.webp?compress=true&q=70",
+            "price":"₹5,599.00 ₹7,999.00(30% OFF)",
+            "name":"T-JUST-E43 White Man Regular T-shirt",
+            "discription":"Men's regular-fit T-shirt in cotton jersey, emblazoned with a peel-off effect logo graphic on the front."
+        },
+        {
+            "id":5,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372695005/665/410372695005_1_4742.webp?compress=true&q=70",
+            "price":"₹5,599.00 ₹7,999.00(30% OFF)",
+            "name":"T-DIEGOR-G10 WHITE MAN REGULAR T-SHIRT",
+            "discription":"T-DIEGOR-G10 WHITE MAN REGULAR T-SHIRT"
+        },
+        {
+            "id":6,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372664015/665/410372664015_1_1140.webp?compress=true&q=70",
+            "price":"₹4,899.00 ₹6,999.00(30% OFF)",
+            "name":"T-DIEGOR-G10 White Man Regular T-shirt",
+            "discription":"Men's fitted T-shirt in cotton jersey, emblazoned with a retro-style utilitarian logo graphic on the front."
+        },
+        {
+            "id":7,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372664010/665/410372664010_1_8058.webp?compress=true&q=70",
+            "price":"₹4,899.00 ₹6,999.00(30% OFF)",
+            "name":"T-DIEGOR-G10 Black Man Regular T-shirt",
+            "discription":"Men's fitted T-shirt in cotton jersey, emblazoned with a retro-style utilitarian logo graphic on the front."
+
+        },
+        {
+            "id":8,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372686005/665/410372686005_1_5797.webp?compress=true&q=70",
+            "price":"₹6,999.00 ₹9,999.00(30% OFF)",
+            "name":"T-WASH-G6 Black Man Regular T-shirt",
+            "discription":"Unisex T-shirt crafted from organic cotton. Boldly embroidered with a script logo and crown emblem, this style has an oversized fit and red stripes highlighting the crew neck."
+        }
+      
+
+    ],
+    "man_shoes":[
+        {
+            "id":9,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345240005/665/410345240005_1_9828.webp?compress=true&q=70",
+            "price":"₹8,999.00 ₹17,999.00(50% OFF)",
+            "name":"S-ATHOS LOW Men Black Sneakers",
+            "discription":"Men's low-top sneakers with an inside out design, crafted from panels of reversed black denim. Set on a distressed rubber sole, the upper is detailed with frayed edges and contrast tobacco stitching."
+        },
+        {
+            "id":10,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372623022/665/410372623015_1_5054.webp?compress=true&q=70",
+            "price":"₹17,499.00 ₹24,999.00(30% OFF)",
+            "name":"S-SERENDIPITY SPORT MAN SNEAKERS",
+            "discription":"Men's mesh trainers with rubberised overlays. Branded with a reflective D patch and a moulded rubber logo on the tongue. Set on a cushioned sporty sole."
+        },
+        {
+            "id":11,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372625006/665/410372625006_1_2915.webp?compress=true&q=70",
+            "price":"₹16,099.00 ₹22,999.00(30% OFF)",
+            "name":"S-SERENDIPITY SPORT Man Sneakers",
+            "discription":"Men's sneakers inspired by styles from the 2000s. Made from mesh with padded panels and shiny metallic overlays, these trainers feature moulded 'D' branding and contrasting colour accents. The cushioned sole provides ample support."
+        },
+        {
+            "id":12,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372625012/665/410372625012_1_6323.webp?compress=true&q=70",
+            "price":"₹16,099.00 ₹22,999.00(30% OFF)",
+            "name":"S-SERENDIPITY SPORT MAN SNEAKERS",
+            "discription":"Men's sneakers inspired by styles from the 2000s. Made from mesh with padded panels and shiny metallic overlays, these trainers feature moulded 'D' branding and contrasting colour accents. The cushioned sole provides ample support."
+        },
+        {
+            "id":13,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345248004/665/410345248005_1_3332.webp?compress=true&q=70",
+            "price":"₹34,999.00 ₹49,999.00(30% OFF)",
+            "name":"S-PROTOTYPE-CR Men Black Sneakers",
+            "discription":"breathable mesh overlaid with leather. This shoe features a cage-like harness made with crossover grosgrain straps and rubber mounts that connect to the industrial sole. The sole wraps over the toe and is finished with archive-inspired rubber 'teeth' for a unique look."
+        },
+        {
+            "id":14,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372623014/665/410372623009_1_9537.webp?compress=true&q=70",
+            "price":"₹17,499.00 ₹24,999.00(30% OFF)",
+            "name":"S-SERENDIPITY SPORT Man Sneakers",
+            "discription":"Men's mesh trainers with rubberised overlays. Branded with a reflective D patch and a moulded rubber logo on the tongue. Set on a cushioned sporty sole."
+        },
+        {
+            "id":15,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372634004/665/410372634005_1_8240.webp?compress=true&q=70",
+            "price":"₹33,599.00 ₹47,999.00(30% OFF)",
+            "name":"S-PROTOTYPE V2 Man Sneakers",
+            "discription":"Men's mesh sneakers with off-centre lacing. Multi-textured rubber overlays wrap around the shoe, becoming part of the unique industrial tread pattern."
+        },
+        {
+            "id":16,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345243020/665/410345243020_1_4226.webp?compress=true&q=70",
+            "price":"₹17,499.00 ₹24,999.00(30% OFF)",
+            "name":"S-SERENDIPITY SPORT Men Beige Sneakers",
+            "discription":"Sporty unisex sneakers informed by 2000s styles. Crafted from breathable bicolour mesh, these shoes feature patent and vintage suede overlays, padded D branding and cushioned midsoles."
+        }
+    ],
+    "man_jeans" :[
+        {
+            "id":17,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315218010/665/410315218010_1.webp?compress=true&q=70",
+            "price":"₹11,999.00 ₹19,999.00(40% OFF)",
+            "name":"1979 SLEENKER SKINNY FIT MAN BLACK MEDIUM WASHED JEANS",
+            "discription":"Skinny style with a low waist and regular-length, narrow leg from thigh to ankle, designed with a punk-rock attitude in mind."
+        },
+        {
+            "id":18,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315362010/665/410315362010_1.webp?compress=true&q=70",
+            "price":"₹10,799.00 ₹17,999.00(40% OFF)",
+            "name":"2019 D-STRUKT SLIM FIT MAN BLUE MEDIUM WASHED JEANS",
+            "discription":"Slim style with a clean construction and essential details. This versatile jean features a comfortable silhouette, finished with a zip fly."
+        },
+        {
+            "id":19,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410291456007/665/410291456007_1.webp?compress=true&q=70",
+            "price":"₹11,999.00 ₹19,999.00(40% OFF)",
+            "name":"D-AMNY SKINNY FIT MAN BLUE MEDIUM WASHED JEANS",
+            "discription":"Skinny jeans. The dark blue wash is enriched with handmade whiskers and a large, instantly recognisable leather patch. Diesel is a proud member of the Better Cotton Initiative. By buying cotton products from Diesel, you are supporting more sustainable cotton production. Better cotton is sourced via a system of Mass Balance and is not physically traceable to end products."
+        },
+        {
+            "id":20,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315216010/665/410315216010_1.webp?compress=true&q=70",
+            "price":"₹11,999.00 ₹19,999.00(40% OFF)",
+            "name":"MRP ₹19,999.00 ₹11,999.00 (40% Off)",
+            "discription":"Skinny style with a low waist and regular-length, narrow leg from thigh to ankle, designed with a punk-rock attitude in mind."
+        },
+        {
+            "id":21,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315388010/665/410315388010_1.webp?compress=true&q=70",
+            "price":"₹14,999.00 ₹24,999.00(40% OFF)",
+            "name":"1995 STRAIGHT FIT MAN BLUE MEDIUM WASHED JEANS",
+            "discription":"Slim style with a regular waist and straight leg. Taking inspiration from the techno music of the mid 90s, this jean features a button fly and an original Diesel attitude." 
+        },
+        {
+            "id":22,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315156009/665/410315156009_1.webp?compress=true&q=70",
+            "price":"₹11,999.00 ₹19,999.00(40% OFF)",
+            "name":"2005 D-FINING TAPERED FIT MAN BLACK MEDIUM WASHED JEANS",
+            "discription":"Tapered style with button fly, featuring a tailored construction with minimal detailing. Defined by a casual attitude, the contemporary silhouette is designed to suit different body types."
+        },
+        {
+            "id":23,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410291502010/665/410291502010_1.webp?compress=true&q=70",
+            "price":"₹13,199.00 ₹21,999.00(40% OFF)",
+            "name":"D-STRUKT SLIM FIT MAN BLUE MEDIUM WASHED JEANS",
+            "discription":"Versatile slim style with a clean construction and essential details. D-Stressed in Italy, this stretch-denim rinse wash has been hand-sponged at the waist to create a bold yet refined finish. Diesel is a proud member of the Better Cotton Initiative. By buying cotton products from Diesel, you are supporting more sustainable cotton production. Better cotton is sourced via a system of Mass Balance and is not physically traceable to end products "
+        },
+        {
+            "id":24,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410338663009/665/410338663009_1_4274.webp?compress=true&q=70",
+            "price":"MRP ₹34,999.00 ₹24,499.00 (30% Off)",
+            "name":"D-STRUKT SLIM FIT MAN BLACK MEDIUM WASHED JOGGJEANS®",
+            "discription":"Slim style with a clean construction crafted in JoggJeans® for the utmost comfort."
+        }
+    ],
+    "men_assesories":[
+        {
+            "id":25,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345320001/665/410345320001_1_8719.webp?compress=true&q=70",
+            "price":"₹20,999.00 ₹34,999.00(40% OFF)",
+            "name":"BERLYN BACKPACK MEN BLUE BACKPACK",
+            "discription":"Men's backpack crafted from Italian logo-lasered denim in a stonewashed blue hue. Featuring ergonomic shoulder straps and a zip-around bottom pocket, this jean-inspired design is finished with classic tobacco stitching and rivets on the pull tabs."
+        },
+        {
+            "id":26,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372756001/665/410372756001_1_5957.webp?compress=true&q=70",
+            "price":"₹13,999.00 ₹19,999.00(30% OFF)",
+            "name":"1DR-POD CROSSBODY BLACK MAN CROSSBODY BAG",
+            "discription":"Part of the Spring Summer 2023 Runway Show collection, this belt bag is styled with a hard shell construction and adjustable buckled strap. Its glossy black PU design is elevated with a maxi embossed oval D logo and a comfy mesh back."
+        },
+        {
+            "id":27,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345308001/665/410345308001_1_7488.webp?compress=true&q=70",
+            "price":"₹16,099.00 ₹22,999.00(30% OFF)",
+            "name":"1DR-POD BACKPACK Black Backpack",
+            "discription":"Men's ergonomic backpack with a turtle-inspired hard shell construction. Made from durable fabric embossed with a bold 'oval D' emblem, this functional design features contoured shoulder straps, a padded mesh back and a sectioned interior with room for a laptop."
+        },
+        {
+            "id":28,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345149002/665/410345149002_1_9009.webp?compress=true&q=70",
+            "price":"₹9,099.00 ₹12,999.00(30% OFF)",
+            "name":"HIRESH S.II Men Brown Wallet",
+            "discription":"Men's bi-fold wallet made from grainy leather, embellished on the front with oval D logo hardware."
+        },
+        {
+            "id":29,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345293001/665/410345293001_1_5099.webp?compress=true&q=70",
+            "price":"₹8,499.00 ₹16,999.00(50% OFF)",
+            "name":"₹8,499.00 ₹16,999.00(50% OFF)",
+            "discription":"Men's bi-fold wallet with a compact design. Made from Italian blue denim, it showcases a lasered monogram motif and classic tobacco stitching. The bright red interior is equipped with various slots and has a pocket for coins."
+        },
+        {
+            "id":30,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315384004/665/410315384004_1_6178.webp?compress=true&q=70",
+            "price":"₹4,199.00 ₹5,999.00(30% OFF)",
+            "name":"CORRY-DIV MEN BLACK CAP",
+            "discription":"Cotton baseball cap with an embroidered Diesel Denim Division logo on the front. The underside of the peak and internal bindings are finished in a contrasting colour."
+        },
+        {
+            "id":31,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372576002/665/410372576002_1_9638.webp?compress=true&q=70",
+            "price":"C-IZDARD MAN CAP",
+            "name":"MRP ₹7,999.00 ₹5,599.00 (30% Off)",
+            "discription":"Men's baseball cap made from cotton twill. Printed all-over with a pixelated camouflage pattern with subtle Diesel branding."
+        },
+        {
+            "id":32,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372574002/665/410372574002_1_4249.webp?compress=true&q=70",
+            "price":"₹7,699.00 ₹10,999.00(30% OFF)",
+            "name":"C-FISHER ORANGE MAN CAP",
+            "discription":"Men's cotton twill bucket hat with stitching on the brim. Branded with an embroidered oval 'D' patch on the front."
+        }
+    ],
+    "women_assesories":[
+        {
+            "id":33,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315243001/665/410315243001_1.webp?compress=true&q=70",
+            "price":"₹4,499.00 ₹8,999.00(50% OFF)",
+            "name":"RINKE WOMEN RED WALLET",
+            "discription":"This bag charm is designed to hold coins and a credit card. It's crafted from faux leather in a circular shape and debossed on the front with the Denim Division D logo."
+        },
+        {
+            "id":34,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345141001/665/410345141001_1_5174.webp?compress=true&q=70",
+            "price":"₹3,499.00 ₹6,999.00(50% OFF)",
+            "name":"₹3,499.00 ₹6,999.00(50% OFF)",
+            "discription":"A unisex accessory, this oval key fob is crafted from mirrored leather and has a metal logo plaque electroplated with a matching high-shine finish. The clasp can be used to attached it to bag."
+        },
+        {
+            "id":35,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345064001/665/410345064001_1_8830.webp?compress=true&q=70",
+            "price":"₹17,999.00 ₹29,999.00(40% OFF)",
+            "name":"DSL SHOPPER M X WOMEN RED BAG",
+            "discription":"A unisex bag, this tote is made from smooth matte leather with a bold logo print on the front. The design mimics Diesel's in-store paper shoppers and comes with a detachable shoulder strap."
+        },
+        {
+            "id":36,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345128001/665/X08748_P0859_T8013-1.webp?compress=true&q=70",
+            "price":"₹17,999.00 ₹29,999.00(40% OFF)",
+            "name":"CRUST-M X Women Black Handbag",
+            "discription":"Unisex crossbody with an archival heritage design. Crafted from Italian buffalo textured leather that's naturally vegetable tanned, this bag is detailed with raw edges, jean rivets and contrast colour stitching. A foiled silver 'Diesel Industries' logo embellishes the flap."
+        },
+        {
+            "id":37,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372696001/665/410372696001_1_1333.webp?compress=true&q=70",
+            "price":"₹3,499.00 ₹4,999.00(30% OFF)",
+            "name":"DSL2 Black Woman Wallet",
+            "discription":"Women's long metal keyring embellished with graphic Diesel lettering in colourful enamel."
+        },
+        {
+            "id":38,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372754001/665/410372754001_1_2585.webp?compress=true&q=70",
+            "price":"₹34,999.00 ₹49,999.00(30% OFF)",
+            "name":"D-VINA-XS Blue Woman Handbag",
+            "discription":"This women's Spring Summer 2023 Runway Show handbag is built from blue denim, sun-treated for a faded look. Styled with horizontal quilting and maxi frayed edges, it flaunts a jewelled Diesel chain embellishment on the front. Its gusset construction is topped with tonal leather handles."
+        },
+        {
+            "id":39,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345277004/665/410345277004_1_7011.webp?compress=true&q=70",
+            "price":"MRP ₹16,999.00 ₹8,499.00 (50% Off)",
+            "name":"B-LETTERS C WOMAN BELT",
+            "discription":"Crafted from soft leather, this women's belt was presented in the FW Fashion Show Collection '22. It's detailed with enameled metal Diesel lettering and contrasting-colour edges that look like they've been hand-painted."
+        },
+        {
+            "id":40,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345061005/665/410345061005_1_5413.webp?compress=true&q=70",
+            "price":"₹3,499.00 ₹6,999.00(50% OFF)",
+            "name":"B-ALYEN Women Black Belt",
+            "discription":"This belt's unisex design is crafted from leather and has an oval metal buckle engraved with a vintage Diesel logo."
+        }
+    ],
+    "women_jeans":[
+        {
+            "id":41,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315307008/665/410315307008_1.webp?compress=true&q=70",
+            "price":"₹8,999.00 ₹17,999.00(50% OFF)",
+            "name":"1969 D-EBBEY BOOTCUT FIT WOMAN BLUE CLEAN JEANS",
+            "discription":"Bootcut style with a low waist and higher back coverage. This classic slim jean with a bohemien attitude hugs the body from the hips to the knees."
+        },
+        {
+            "id":42,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315164008/665/410315164008_1.webp?compress=true&q=70",
+            "price":"₹7,499.00 ₹14,999.00(50% OFF)",
+            "name":"2015 BABHILA SKINNY FIT WOMAN BLUE CLEAN JEANS",
+            "discription":"Skinny style with a regular waist that bridges the gap between skin-tight denim and traditional straight looks. Finished with a zip fly, the construction and clean look of this denim are inspired by classic jeans."
+        },
+        {
+            "id":43,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410291682001/665/410291682007_1.webp?compress=true&q=70",
+            "price":"₹14,499.00 ₹28,999.00(50% OFF)",
+            "name":"BABHILA SLIM FIT WOMAN BROWN MEDIUM WASHED JEANS",
+            "discription":"Slim style with a regular waist that bridges the gap between skin-tight denim and traditional straight looks. The construction and clean look are inspired by classic jeans."
+        },
+        {
+            "id":44,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315309006/665/410315309006_1.webp?compress=true&q=70",
+            "price":"₹10,999.00 ₹21,999.00(50% OFF)",
+            "name":"1969 D-EBBEY BOOTCUT FIT WOMAN BLUE MEDIUM WASHED JEANS",
+            "discription":"Bootcut style with a low waist and higher back coverage. This classic slim jean with a bohemien attitude hugs the body from the hips to the knees."
+        },
+        {
+            "id":44,
+            "image":"1969 D-EBBEY BOOTCUT FIT WOMAN BLUE MEDIUM WASHED JEANS",
+            "price":"MRP ₹17,999.00 ₹10,799.00 (40% Off)",
+            "name":"1969 D-EBBEY BOOTCUT FIT WOMAN BLUE MEDIUM WASHED JEANS",
+            "discription":"Crafted from stretch denim, this dark blue wash showcases light whiskering and subtle all-over treatments. Bootcut style with a low waist and higher back coverage. This classic slim jean with a bohemien attitude hugs the body from the hips to the knees."
+        },
+        {
+            "id":45,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372491007/665/410372491007_1_6793.webp?compress=true&q=70",
+            "price":"₹13,199.00 ₹21,999.00(40% OFF)",
+            "name":"2015 BABHILA SKINNY FIT WOMAN GREY CLEAN JEANS",
+            "discription":"Characterised by a stretch-denim wash in dark grey, with lighter whiskers and minimal abrasions at the hems for a subtle used look. Skinny style with a regular waist that bridges the gap between skin-tight denim and traditional straight looks. Finished with a zip fly, the construction and clean look of this denim are inspired by classic jeans."
+        },
+        {
+            "id":46,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410344973005/665/410344973005_1_6548.webp?compress=true&q=70",
+            "price":"₹7,799.00 ₹12,999.00(40% OFF)",
+            "name":"1984 SLANDY-HIGH SUPER SKINNY FIT WOMAN BLACK CLEAN JEANS",
+            "discription":"Super-skinny style with a high waist. The silhouette follows the body from hips to ankles, creating a second-skin effect."
+        },
+        {
+            "id":47,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345246007/665/410345246007_1_7320.webp?compress=true&q=70",
+            "price":"₹14,999.00 ₹24,999.00(40% OFF)",
+            "name":"1956-SP STRAIGHT FIT WOMAN BLUE MEDIUM WASHED JEANS",
+            "discription":"Regular style with a high waist and straight leg. Channeling a rock-n-roll vibe, its authentic influences include a straight-cut leg and button fly. It's crafted from inside-out fabric and features side bands along the length of the leg."
+        },
+        {
+            "id":48 ,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372738006/665/410372738006_1_1420.webp?compress=true&q=70",
+            "price":"₹14,999.00 ₹24,999.00(40% OFF)",
+            "name":"1969 D-EBBEY-SP CLEAN BLUE WOMAN BOOTCUT AND FLARE JEANS",
+            "discription":"Bootcut style with a low waist and higher back coverage. This classic slim jean with a bohemien attitude hugs the body from the hips to the knees. A cut-off waist and frayed hems update the look. The fabric is made using 30% certified recycled cotton, reducing the use of virgin resources. Crafted from stretch denim with partially recycled fibres, this light blue wash has a clean finish, with raw-cut details for an edgy twist."
+        }
+    ],
+    "women_shoes":[
+        {
+            "id":49,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315346004/665/410315346004_1.webp?compress=true&q=70",
+            "price":"₹2,499.00 ₹4,999.00(50% OFF)",
+            "name":"Kauay Women Pink Sandals",
+            "discription":""
+        },
+        {
+            "id":50,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315347007/665/410315347007_1_6544.webp?compress=true&q=70",
+            "price":"₹3,499.00 ₹6,999.00(50% OFF)",
+            "name":"Mayemi Women Pink Sandals",
+            "discription":""
+        },
+        {
+            "id":51,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345242004/665/410345242004_1_6853.webp?compress=true&q=70",
+            "price":"₹7,699.00 ₹10,999.00(30% OFF)",
+            "name":"SA-MAYEMI CC W Women Pink Sandals",
+            "discription":""
+        },
+        {
+            "id":52,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372624004/665/410372624004_1_5110.webp?compress=true&q=70",
+            "price":"₹18,899.00 ₹26,999.00(30% OFF)",
+            "name":"S-SERENDIPITY SPORT W BLUE WOMAN SNEAKERS",
+            "discription":"Inspired by sporty styles from the 2000s, these women's sneakers are built from breathable mesh. Topped with tonal leather overlays with a pearlescent effect, they feature a heat-pressed logo patch on the tongue and a cushioned midsole."
+        }
+    ],
+    "women":[
+        {
+            "id":53,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315113005/665/410315113005_1_4547.webp?compress=true&q=70",
+            "price":"₹4,999.00 ₹9,999.00(50% OFF)",
+            "name":"T-SLI-IND Slim Women Violet T-shirt",
+            "discription":"T-shirt cut for a slim fit from cotton jersey, it has been pigment-dyed and branded with a puff-print Diesel Industry Denim Division logo."
+        },
+        {
+            "id":54,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345329005/665/410345329005_1_4241.webp?compress=true&q=70",
+            "price":"₹26,999.00",
+            "name":"AWST-ELLIWO-RW42 Regular Woman T-shirt",
+            "discription":"Women's FW22 Runway Show long-sleeve top from the DIESEL SPORT range, cut from stretch fabric with contrast ribbed cotton panels. Boasting an overlapping denim print and a D patch on the chest, it stands out with a contrast waterproof zip and striped rib-knit collar."
+        },
+        {
+            "id":55,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372597004/665/410372597004_1_6494.webp?compress=true&q=70",
+            "price":"₹6,599.00 ₹10,999.00(40% OFF)",
+            "name":"T-REG-G2 REGULAR WOMAN T-SHIRT",
+            "discription":"This women's regular-fit tee is crafted from soft cotton jersey. The chest is screen-printed with a tonal photo. Elevated with a sun-faded treatment and a manual spray to corrode both the fabric and print for a lived-in look."
+        },
+        {
+            "id":56,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372618004/665/410372618004_1_9748.webp?compress=true&q=70",
+            "price":"₹4,799.00 ₹7,999.00(40% OFF)",
+            "name":"T-DANNY Loose Black Woman T-shirt",
+            "discription":"Women's loose-fit tee built from cotton jersey. The distorted Diesel lettering on the front and back is printed with a puffy finish. Garment-dyed for a faded look."
+        },
+        {
+            "id":57,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372572008/665/410372572008_1_3507.webp?compress=true&q=70",
+            "price":"₹4,199.00 ₹6,999.00(40% OFF)",
+            "name":"T-REG-DIV Regular Woman T-shirt",
+            "discription":"Basic women's tee cut from soft cotton jersey. Regular fit, embroidered with stitched Diesel Denim Division patches on the front."
+        },
+        {
+            "id":58,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345096007/665/410345096007_1_4336.webp?compress=true&q=70",
+            "price":"₹6,999.00 ₹3,499.00 (50% Off)",
+            "name":"T-REG-MICRODIV REGULAR WOMEN RED T-SHIRT",
+            "discription":"Women's cotton-jersey T-shirt cut to a regular fit. Detailed with a micro-embroidered logo on the chest."
+        },
+        {
+            "id":59,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315241005/665/410315241005_1_7795.webp?compress=true&q=70",
+            "price":"₹6,999.00 ₹3,499.00 (50% Off)",
+            "name":"T-REG-D WOMAN REGULAR FIT T-SHIRT",
+            "discription":"Regular-fit T-shirt crafted from cotton jersey, featuring a small embroidered 'D' patch centred high on the chest."
+        },
+        {
+            "id":60,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410291547001/665/410291547001_1.webp?compress=true&q=70",
+            "price":"₹3,999.00 ₹7,999.00(50% OFF)",
+            "name":"T-daria Regular Fit Women Pink T-shirt",
+            "discription":"Regular-fit jersey T-shirt with mélange effect, featuring an eyelash curler print and an embroidered 'Youthility' slogan. This garment is made using certified organic cotton and certified recycled polyester. Fits large to size, take one size smaller than normal."
+        }
+    ],
+    "kid_jean":[
+        {
+            "id":61,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345358005/665/410345358005_1_3427.webp?compress=true&q=70",
+            "price":"₹5,999.00 ₹9,999.00(40% OFF)",
+            "name":"1979 SLEENKER-J Skinny Kid Black Jeans",
+            "discription":"Skinny style with a low waist and narrow leg from thigh to ankle, featuring a versatile design with a punk attitude. This stretch-denim pair has a soft feel and a clean black wash with a gold-tone Diesel logo on the 5th pocket."
+        },
+        {
+            "id":62,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410291417001/665/410291417005_1.webp?compress=true&q=70",
+            "price":"₹4,499.00 ₹8,999.00(50% OFF)",
+            "name":"THOMMER SLIM FIT BOY BLUE JOGGJEANS®",
+            "discription":"Slim style with clean design. The leg narrows from knee to ankle and has more room on the thigh. This pair features a clean blue wash."
+        },
+        {
+            "id":63,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345361005/665/410345361005_1_4532.webp?compress=true&q=70",
+            "price":"₹11,999.00 ₹5,999.00 (50% Off)",
+            "name":"1979 SLEENKER-J JJJ SKINNY KID BLUE JEANS",
+            "discription":"Skinny style with a low waist and narrow leg from thigh to ankle, featuring a versatile design with a punk attitude. It's crafted from JoggJeans® fabric for the utmost comfort, washed for an authentic look and a soft feel. Ripped details with darnings complete the look."
+        },
+        {
+            "id":64,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315475004/665/410315475004_1_8568.webp?compress=true&q=70",
+            "price":"₹5,999.00 ₹11,999.00(50% OFF)",
+            "name":"Krooley Tapered Fit Boys Blue Jeans",
+            "discription":"Tapered style with a drawstring waist and a roomy leg that narrows towards the ankle. The soft denim showcases a clean wash with a contemporary vibe."
+        },
+        {
+            "id":65,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345353005/665/410345353005_1_1506.webp?compress=true&q=70",
+            "price":"₹5,499.00 ₹10,999.00(50% OFF)",
+            "name":"1995-J SLIM KID BLUE JEANS",
+            "discription":"Slim style with a regular waist and straight leg. This versatile jean adapts to every situation and channels an original Diesel attitude. Made from stretch denim in an authentic, lived-in medium blue wash with 3D whiskers and broken and repaired detailing."
+        },
+        {
+            "id":66,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315471004/665/410315471004_1_2294.webp?compress=true&q=70",
+            "price":"₹8,999.00 ₹4,499.00 (50% Off)",
+            "name":"SLEENKER SKINNY FIT BOY BLUE JOGGJEANS®",
+            "discription":"Skinny style with a narrow leg from thigh to ankle. This pair features a medium blue wash treated for a natural, lived-in look."
+        },
+        {
+            "id":67,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315459018/665/410315459018_1_3172.webp?compress=true&q=70",
+            "price":"₹7,999.00 ₹3,999.00 (50% Off)",
+            "name":"PHORY REGULAR FIT BOYS BLUE PANTS",
+            "discription":"These unisex sweatpants are made from soft cotton in an essential silhouette with elasticated cuffs. A small Diesel For Successful Living logo print accents the front."
+        },
+        {
+            "id":68,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315476010/665/410315476010_1.webp?compress=true&q=70",
+            "price":"₹4,999.00 ₹9,999.00(50% OFF)",
+            "name":"Thommer Slim Fit Boys Green Jeans",
+            "discription":"Slim style with clean design. The leg narrows from knee to ankle and has more room on the thigh. The pair is crafted from Track Denim and features a coloured wash."
+        }
+    ],
+    "kid_t-shirts":[
+        {
+            "id":69,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410373537005/665/410373537005_1_7090.webp?compress=true&q=70",
+            "price":"₹3,599.00 ₹5,999.00(40% OFF)",
+            "name":"TAQUE Regular Kid T-Shirt",
+            "discription":"FASHION SHOW capsule collection. This boys' T-shirt is crafted from cotton jersey and minimally detailed with a metal 'oval D' plaque on the chest."
+        },
+        {
+            "id":70,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345355008/665/410345355008_1_9056.webp?compress=true&q=70",
+            "price":"₹3,499.00 ₹6,999.00(50% OFF)",
+            "name":"TKALO Regular Fit Boys White T-shirt",
+            "discription":"Soft cotton jersey tee. This boys' style features terry Diesel patches across the chest with flock-printed 'For Successful Living' lettering."
+        },
+        {
+            "id":71,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345356008/665/410345356008_1_8413.webp?compress=true&q=70",
+            "price":"₹1,999.00 ₹3,999.00(50% OFF)",
+            "name":"TDIEGOSB10 Regular Fit Boys White T-shirt",
+            "discription":"Boys' tee made from soft cotton jersey. This style features a scribbled out Diesel 'Disturb' print on the chest."
+        },
+        {
+            "id":72,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410373529010/665/410373529010_1_8446.webp?compress=true&q=70",
+            "price":"₹1,799.00 ₹2,999.00(40% OFF)",
+            "name":"LTGIM Regular Kid T-Shirt",
+            "discription":"Short-sleeved tee cut from soft cotton jersey. This boys' style is branded with a small D logo on the chest."
+        },
+        {
+            "id":73,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410373533010/665/410373533010_1_8323.webp?compress=true&q=70",
+            "price":"₹2,999.00 ₹4,999.00(40% OFF)",
+            "name":"TDIEGORE11 REGULAR KID T-SHIRT",
+            "discription":"Boys' crew-neck T-shirt in cotton jersey. This Mini Me design is printed with a vintage-style logo graphic featuring a coat of arms and collegiate-inspired lettering."
+        },
+        {
+            "id":74,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410373534005/665/410373534005_1_6304.webp?compress=true&q=70",
+            "price":"₹4,799.00 ₹7,999.00(40% OFF)",
+            "name":"TWASHC4 OVER Regular Kid T-Shirt",
+            "discription":"Boys' crew-neck T-shirt made from cotton jersey. Tie-dyed in earthy tones, this Mini Me style features painterly brushstroke effects and a puffy logo print on the front."
+        },
+        {
+            "id":75,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410373542005/665/410373542005_1_1630.webp?compress=true&q=70",
+            "price":"₹4,199.00 ₹6,999.00(40% OFF)",
+            "name":"TABRY OVER Regular Kid T-Shirt",
+            "discription":"This boys' T-shirt is cut from cotton to a crew-neck silhouette. It stands out for the soft colour-block motif with a special tie-dye effect. Branded with a small 'Diesel For Successful Living' logo."
+        },
+        {
+            "id":76,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410373546005/665/410373546005_1_9782.webp?compress=true&q=70",
+            "price":"₹8,999.00 ₹5,399.00 (40% Off)",
+            "name":"TENNIX OVER REGULAR KID T-SHIRT",
+            "discription":"This short-sleeve boy's tee is designed with a layered look, inspired by basketball uniforms. The top is crafted from technical fabric with an all-over matte and shiny monogram, and features a V-neckline, contrasting trims, and white cotton sleeves."
+        }
+    ],
+    "kid_jacket":[
+        {
+            "id":77,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345346015/665/410345346015_1_4228.webp?compress=true&q=70",
+            "price":"₹5,499.00 ₹10,999.00(50% OFF)",
+            "name":"JDOLMIR21-SL REGULAR FIT BOYS BLUE JACKET",
+            "discription":"Styled with narrow horizontal quilting, this kids' gilet is crafted from nylon and lined in a contrast tone. Edged with stretch trims for comfort, it's branded with a rubber logo patch on the chest."
+        },
+        {
+            "id":78,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315445005/665/410315445005_1.webp?compress=true&q=70",
+            "price":"₹6,499.00 ₹12,999.00(50% OFF)",
+            "name":"SLEGGY OVER Kid Regular Fit Sweaters",
+            "discription":"Zip-up hoodie in colour-block cotton, featuring a neon zip and matching trims. Complete with printed motifs on the front and 'Diesel Speed Xplorer' branding on the back."
+        },
+        {
+            "id":79,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315469015/665/410315469015_1.webp?compress=true&q=70",
+            "price":"₹4,999.00 ₹9,999.00(50% OFF)",
+            "name":"Sgirkhoodzip Regular Fit Unisex Red Sweater",
+            "discription":"Front open Cotton hoodie with metal zipper, pouch pockets and printed logo on the back."
+        },
+        {
+            "id":80,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345346010/665/410345346010_1_9320.webp?compress=true&q=70",
+            "price":"₹5,499.00 ₹10,999.00(50% OFF)",
+            "name":"JDOLMIR21-SL Regular Fit Boys Black Jacket",
+            "discription":"Styled with narrow horizontal quilting, this kids' gilet is crafted from nylon and lined in a contrast tone. Edged with stretch trims for comfort, it's branded with a rubber logo patch on the chest."
+        },
+        {
+            "id":81,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410291409001/665/410291409005_1.webp?compress=true&q=70",
+            "price":"₹8,499.00 ₹16,999.00(50% OFF)",
+            "name":"JDWAIN Regular Fit Boy Green Jacket",
+            "discription":"This hooded jacket is built from water-repellent quilted nylon with 3M™ Thinsulate™ padding, a lightweight down alternative. The cuffs and toggle hem are secured with elastic binding. Rubberised logo print on the front."
+        },
+        {
+            "id":82,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410291409006/665/410291409010_1.webp?compress=true&q=70",
+            "price":"₹8,499.00 ₹16,999.00(50% OFF)",
+            "name":"JDWAIN Regular Fit Boy Orange Jacket",
+            "discription":"This hooded jacket is built from water-repellent quilted nylon with 3M™ Thinsulate™ padding, a lightweight down alternative. The cuffs and toggle hem are secured with elastic binding. Rubberised logo print on the front."
+        },
+        {
+            "id":83,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315469005/665/410315469005_1.webp?compress=true&q=70",
+            "price":"₹4,999.00 ₹9,999.00(50% OFF)",
+            "name":"Sgirkhoodzip Regular Fit Unisex Black Sweater",
+            "discription":"Front open Cotton hoodie with metal zipper, pouch pockets and printed logo on the back."
+        },
+        {
+            "id":84,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345346010/665/410345346010_1_9320.webp?compress=true&q=70",
+            "price":"₹10,999.00 ₹5,499.00 (50% Off)",
+            "name":"JDOLMIR21-SL REGULAR FIT BOYS BLACK JACKET",
+            "discription":"Styled with narrow horizontal quilting, this kids' gilet is crafted from nylon and lined in a contrast tone. Edged with stretch trims for comfort, it's branded with a rubber logo patch on the chest."
+        }
+    ]
+}
+
+  

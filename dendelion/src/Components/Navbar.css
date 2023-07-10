@@ -1,0 +1,150 @@
+.logo{
+    width:auto ;
+    height:50px ;
+}
+.man{
+    /* text-decoration: none;
+    color: white;
+     */
+
+     text-decoration: none;
+     color: #fff;
+     font-size: 14px;
+     padding: 17px 13px;
+     text-transform: uppercase;
+     font-weight: 700;
+     font-family: "Scto_Grotesk_Regular";
+     font-family: var(--fontFamily);
+     transition: all .5s;
+     cursor: pointer;
+}
+.woman{
+    
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 17px 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Scto_Grotesk_Regular";
+    font-family: var(--fontFamily);
+    transition: all .5s;
+    cursor: pointer;
+}
+.kid{
+    
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 17px 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Scto_Grotesk_Regular";
+    font-family: var(--fontFamily);
+    transition: all .5s;
+    cursor: pointer;
+    /* padding-right: 330px; */
+}
+
+.profilediv{
+    background-color: #d23435;
+    /* height: 40px; */
+    /* width: 50%; */
+    width: 15%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding-right:70px;
+    /* border: 1px solid white; */
+}
+.profileicon{
+    height: 33px;
+    border: 1px solid white;
+    padding: 7px 5px 5px 5px;
+    
+}
+.questionicon{
+    height: 33px;
+    border: 1px solid white;
+    padding: 7px 5px 5px 5px;
+}
+.searchicon{
+    height: 33px;
+    border: 1px solid white;
+    padding: 7px 5px 5px 5px;
+}
+.hearticon{
+    height: 33px;
+    border: 1px solid white;
+    padding: 7px 5px 5px 5px;
+}
+.shoppingbagicon{
+    height: 33px;
+    border: 1px solid white;
+    padding: 7px 5px 5px 5px;
+    /* margin-right: 9px; */
+}
+.navbar{
+    background-color: #d23435;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.typeofperson{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    margin-left: 50px;
+}
+.logodiv{
+    margin-top:10px ;
+}
+.slidernavbar{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 0!important;
+    margin-top: 0!important;
+    font-family: "Scto_Grotesk_Regular";
+    font-family: var(--fontFamily);
+    color: red;
+}
+
+.main {
+    overflow: hidden;
+  }
+  
+  .slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    animation: slideRight 10s linear infinite;
+  }
+  
+  .slider-text {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 0!important;
+    margin-top: 0!important;
+    font-family: "Scto_Grotesk_Regular";
+    font-family: var(--fontFamily);
+    color: red;
+  }
+  
+  @keyframes slideRight {
+    0% {
+      transform: translateX(100%);
+    }
+    20% {
+      transform: translateX(0%);
+    }
+    80% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
