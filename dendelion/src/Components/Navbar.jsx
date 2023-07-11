@@ -6,7 +6,7 @@ import search from "./search.png";
 import question from "./question.png";
 import heart from "./heart.png";
 import shoppingbag from "./shopping-bag.png";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 
 const Navbar = () => {
@@ -33,7 +33,7 @@ const Navbar = () => {
         
       </div>
     </nav>
-    <Footer />
+    {/* <Footer /> */}
     </>
   );
 };
