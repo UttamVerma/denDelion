@@ -25,7 +25,7 @@ let Footer = () => {
                 value="male"
                 className="gender-radio is-valid"
               />
-              <label htmlFor="formMaleId">Men</label>
+              <label id="man">Men</label>
             </div>
             <div className="radiobuttonwrapper">
               <input
@@ -35,7 +35,7 @@ let Footer = () => {
                 value="female"
                 className="gender-radio is-valid"
               />
-              <label htmlFor="formFemaleId">Women</label>
+              <label id="woman">Women</label>
             </div>
           </div>
           <p className="privacypolicynewsletter">
@@ -50,12 +50,15 @@ let Footer = () => {
         <div className="secondpartfooter">
           <h4 className="socialheader">Connect with us on social media</h4>
           <div className="social-icons">
+          <img className="social-icon" src={instagram} alt="Instagram" />
             <img className="social-icon" src={facebook} alt="Facebook" />
-            <img className="social-icon" src={instagram} alt="Instagram" />
             <img className="social-icon" src={youtube} alt="YouTube" />
           </div>
         </div>
       </div>
+      <p  class="copyright">
+        Copyright ©️2021 Dendelion Fashion India Pvt.Ltd
+      </p>
     </>
   );
 };

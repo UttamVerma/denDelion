@@ -1,0 +1,158 @@
+.homepagegif{
+    /* height: 100%; */
+    margin-top: -10px;
+    /* height: 590px; */
+    width: 100%;
+    /* background-image: url("https://dibackend.dieselindia.com/banner/1688714430320-635_2.gif?compress=true&q=70"); */
+}
+.homepageiamge{
+    width: 100%;
+    margin-top: 0.7%;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .buttoncontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* margin: auto; */
+  }
+  
+  .imagebutton {
+    margin: 0 5px;
+    /* margin:auto; */
+    height: 20px;
+    margin-top: -260px;
+    font-family: "Scto_Grotesk_Regular";
+    font-family: var(--fontFamily);
+    font-size: 14px;
+    color: #fff;
+    /* margin: 0 0 10px; */
+    padding: 13px 35px;
+    background: #e31f2e;
+    font-weight: 700;
+    border: 1px solid #e31f2e;
+    display: inline-block;
+    margin-left: 30px;
+  }
+  .imagebutton1{
+    margin: 0 5px;
+    /* margin:auto; */
+    margin-top: -260px;
+    height: 20px;
+    font-family: "Scto_Grotesk_Regular";
+    font-family: var(--fontFamily);
+    font-size: 14px;
+    color: #fff;
+    /* margin: 0 0 10px; */
+    padding: 13px 30px;
+    background: #e31f2e;
+    font-weight: 700;
+    border: 1px solid #e31f2e;
+    /* display: inline-block; */
+    margin-right: 50px;
+  }
+  .headingtext{
+    font-size: 35px;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 90px;
+  }
+  #man{
+    position: relative;
+    color: red;
+    text-decoration: none;
+        font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 30px;
+  }
+  #woman{
+    position: relative;
+    text-decoration: none;
+    /* font-size: 35px; */
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  #midman{
+    font-size: 30px;
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* display: flex; */
+  }
+  .deskpara{
+    /* text-align: center; */
+    /* display: block;
+   
+    /* box-sizing: border-box;  */
+    display: flex;
+    margin-top: -30px;
+    margin-left: 50px;
+    width: 34%;
+    /* height: 390px; */
+  }
+  .fyf{
+    align-items: start;
+    display: flex;
+    /* gap: 50px; */
+    /* margin-right: 100px; */
+  }
+  .fyf2{
+    display: flex;
+    height: 300px;
+    width: 60%;
+    /* border: 1px solid black; */
+    margin-left: -500px;
+    margin-top: 50px;
+    gap: 30px;
+  }
+  .tapered{
+    width: 35%;
+    height: 100px;
+  }
+
+  .image{
+    width: 115%;
+    height: 40vh;
+  }
+  #fittypes{
+    margin-left: 30px;
+    font-size: 18px;
+    margin-top: -6px;
+  }
+.diesellibimage{
+  width: 100%;
+  display: flex;
+}
+.showresponse{
+  font-family: "Scto_Grotesk_Regular";
+  font-family: var(--fontFamily);
+  font-size: 14px;
+  color: #000;
+  padding: 10px 40px;
+  background-color: #fff;
+  font-weight: 700;
+  border: 1px solid #fff;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 15px 10px 10px 0;
+  text-decoration: none;
+  display: flex;
+  margin-top:-180px;
+  margin-left: 580px;
+}
+#backrgroundcolor{
+  background-color: #fff;
+  border: 1px solid #fff;
+  /* position: fixed; */
+  z-index: 113;
+}
