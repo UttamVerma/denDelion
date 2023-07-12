@@ -2,6 +2,7 @@ import styles from "./Homepage.module.css";
 import Navbar from "./Navbar";
 import homepageimage from "./hpageimage.gif";
 import Slider from "./SliderNavbar";
+import Footer from "./Footer"
 
 let Homepage = () => {
   return (
@@ -39,7 +40,7 @@ let Homepage = () => {
               alt=""
               className={styles.image}
             />
-             <h2 id={styles.fittypes}>TAPERED</h2>
+            <h2 id={styles.fittypes}>TAPERED</h2>
           </div>
           <div classname={styles.tapered}>
             {" "}
@@ -80,11 +81,307 @@ let Homepage = () => {
         </div>
       </div>
 
-      <div className={styles.diesellib}>
-        <img className={styles.diesellibimage} src="https://dibackend.dieselindia.com/cms_images/1682423620Desktop.webp" alt="" />
-        <div id={styles.backrgroundcolor}><a className={styles.showresponse} href="#">SHOW RESPONSIBLE COLLECTION</a></div>
+      <div className={styles.salepic}>
+        <div className={styles.first}>
+          <h2 className={styles.headingtext}>SALE PICKS</h2>
+          <a href="#" id={styles.man}>
+            <u>MAN</u> <span id={styles.midman}>|</span>{" "}
+            <span id={styles.woman}>WOMAN</span>
+          </a>
+          <div id={styles.headingtextsale}>
+            <p className={styles.headingtextsale1}>2019 D-STRUKT</p>
+          </div>
+          <div className={styles.salepara}>
+            <p>
+              Always cool, always in style, the D-STRUKT is an essential denim
+              silhouette defined by a{" "}
+              <b>slim leg, mid-rise waist and classic fit.</b>
+            </p>
+            <div>
+              <button className={styles.shopBtn}>
+                <a id={styles.shopnowbutton} href="#">
+                  SHOP NOW
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className={styles.salepic1}>
+          <div classname={styles.automaticimages}>
+            {" "}
+            <img
+              src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372739009/300/410372739009_1_8370.webp?compress=true&q=70"
+              alt=""
+              className={styles.saleimage}
+            />
+            <p id={styles.saleitemname}>TAPERED</p>
+            <h2 id={styles.saleitemprice}>MRP 20,999.00</h2>
+          </div>
+          <div classname={styles.automaticimages}>
+            {" "}
+            <img
+              src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372739009/300/410372739009_1_8370.webp?compress=true&q=70"
+              alt=""
+              className={styles.saleimage}
+            />
+            <p id={styles.saleitemname}>STRAIGHT</p>
+            <h2 id={styles.saleitemprice}>MRP 20,999.00</h2>
+          </div>
+          <div classname={styles.automaticimages}>
+            {" "}
+            <img
+              src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372739009/300/410372739009_1_8370.webp?compress=true&q=70"
+              alt=""
+              className={styles.saleimage}
+            />
+            <p id={styles.saleitemname}>SLIM</p>
+            <h2 id={styles.saleitemprice}>MRP 20,999.00</h2>
+          </div>
+          {/* <div classname={styles.automaticimages}>
+            {" "}
+            <img
+              src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/banner/1681109806Diesel_resizing_-14.webp?compress=true&q=70"
+              alt=""
+              className={styles.saleimage}
+            />
+            <p id={styles.saleitemname}>BOOTCUT</p>
+            <h2 id={styles.saleitemprice}>MRP 20,999.00</h2>
+          </div>
+          <div classname={styles.automaticimages}>
+            {" "}
+            <img
+              src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/banner/1681109711Diesel_resizing_-11.webp?compress=true&q=70"
+              alt=""
+              className={styles.saleimage}
+            />
+            <p id={styles.saleitemname}>SKINNY</p>
+            <h2 id={styles.saleitemprice}>MRP 20,999.00</h2>
+          </div> */}
+        </div>
       </div>
 
+      <div className={styles.selectcategory}>
+        <div className={styles.selectcategoryparentimage}>
+          <img
+            className={styles.selectcategoryimage}
+            src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/banner/1688046019SS23_DROP2_LOOKBOOK___OPC_SELL_OUT_CROPS_REHAB_DENIM_1_1_SS23DROP2-16_2.webp?compress=true&q=70"
+            alt=""
+          />
+        </div>
+        <div className={styles.selectcategoryparentimage}>
+          <img
+            className={styles.selectcategoryimage}
+            src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/banner/1680864326SS23_DROP2_LOOKBOOK___OPC_SELL_OUT_CROPS_FTW__PROTOTYPE_CR_1_1_SS23DROP2-18_2.webp?compress=true&q=70"
+            alt=""
+          />
+        </div>
+        <div className={styles.selectcategoryparentimage}>
+          <img
+            className={styles.selectcategoryimage}
+            src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/banner/1688045447SS23_DROP2_LOOKBOOK___OPC_SELL_OUT_CROPS_TIGER_BREAKS_1_1_SS23DROP2-7_2.webp?compress=true&q=70"
+            alt=""
+          />
+        </div>
+        <div className={styles.selectcategoryparentimage}>
+          <img
+            className={styles.selectcategoryimage}
+            src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/banner/1688045313SS23_DROP2_LOOKBOOK___OPC_SELL_OUT_CROPS_PASTEL___NEON_1_1_SS23DROP2-10_2.webp?compress=true&q=70"
+            alt=""
+          />
+        </div>
+        <div className={styles.selectcategoryparentimage}>
+          <img
+            className={styles.selectcategoryimage}
+            src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/banner/1688045691SS23_DROP3_RUNWAY_SHOW_LOOKBOOK___OPC_SELL_OUT_CROPS_POP_MAIN_STORY_(UX)_1_1_SS23DROP3-12_2.webp?compress=true&q=70"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div className={styles.salepic}>
+        <div className={styles.first}>
+          <h2 className={styles.headingtext}>SALE PICKS</h2>
+          <a href="#" id={styles.man}>
+            <u>MAN</u> <span id={styles.midman}>|</span>{" "}
+            <span id={styles.woman}>WOMAN</span>
+          </a>
+          <div id={styles.headingtextsale}>
+            <p className={styles.headingtextsale1}>2019 D-STRUKT</p>
+          </div>
+          <div className={styles.salepara}>
+            <p>
+              Always cool, always in style, the D-STRUKT is an essential denim
+              silhouette defined by a{" "}
+              <b>slim leg, mid-rise waist and classic fit.</b>
+            </p>
+            <div>
+              <button className={styles.shopBtn}>
+                <a id={styles.shopnowbutton} href="#">
+                  SHOP NOW
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className={styles.salepic1}>
+          <div classname={styles.automaticimages}>
+            {" "}
+            <img
+              src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345302002/300/410345302002_1_4199.webp?compress=true&q=70"
+              alt=""
+              className={styles.hieglight}
+            />
+            <p id={styles.saleitemname}>TAPERED</p>
+            <h2 id={styles.saleitemprice}>MRP 20,999.00</h2>
+          </div>
+          <div classname={styles.automaticimages}>
+            {" "}
+            <img
+              src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345191010/300/410345191010_1_8976.webp?compress=true&q=70"
+              alt=""
+              className={styles.hieglight}
+            />
+            <p id={styles.saleitemname}>STRAIGHT</p>
+            <h2 id={styles.saleitemprice}>MRP 20,999.00</h2>
+          </div>
+          <div classname={styles.automaticimages}>
+            {" "}
+            <img
+              src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372663005/300/410372663005_1_8079.webp?compress=true&q=70"
+              alt=""
+              className={styles.hieglight}
+            />
+            <p id={styles.saleitemname}>SLIM</p>
+            <h2 id={styles.saleitemprice}>MRP 20,999.00</h2>
+          </div>
+          {/* <div classname={styles.automaticimages}>
+            {" "}
+            <img
+              src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/banner/1681109806Diesel_resizing_-14.webp?compress=true&q=70"
+              alt=""
+              className={styles.hieglight}
+            />
+            <p id={styles.saleitemname}>BOOTCUT</p>
+            <h2 id={styles.saleitemprice}>MRP 20,999.00</h2>
+          </div>
+          <div classname={styles.automaticimages}>
+            {" "}
+            <img
+              src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/banner/1681109711Diesel_resizing_-11.webp?compress=true&q=70"
+              alt=""
+              className={styles.hieglight}
+            />
+            <p id={styles.saleitemname}>SKINNY</p>
+            <h2 id={styles.saleitemprice}>MRP 20,999.00</h2>
+          </div> */}
+        </div>
+      </div>
+
+      <div className={styles.thefourparent}>
+        <div className={styles.row}>
+          <div className={styles.thefour}>
+            <img
+              className={styles.thefourimage}
+              src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/cms_images/16891561011676638237SS23_DROP2_LOOKBOOK___OPC_SELL_OUT_CROPS_BIG_D_16_9_300dpi_16-9_300DPI.webp?compress=true&q=70"
+              alt=""
+            />
+            <div className={styles.overlay}>
+              <p className={styles.overlayText}>LOGOMANIA</p>
+            </div>
+          </div>
+          <div className={styles.thefour}>
+            <img
+              className={styles.thefourimage}
+              src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/cms_images/16891562501680789845SS23_DROP2_LOOKBOOK___OPC_SELL_OUT_CROPS_PASTEL___NEON_16_9_300dpi_16-9_300dpi.webp?compress=true&q=70"
+              alt=""
+            />
+            <div className={styles.overlay}>
+              <p className={styles.overlayText}>TOPWEAR</p>
+            </div>
+          </div>
+        </div>
+        <div className={styles.row}>
+          <div className={styles.thefour}>
+            <img
+              className={styles.thefourimage}
+              src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/cms_images/16891561971676638471SS23_DROP2_LOOKBOOK___OPC_SELL_OUT_CROPS_LUNAR_NEW_YEAR_OF_THE_RABBIT__16_9_300dpi_DIESEL_OPC_SS23-2_LNY_RABBIT_FULL_UX_02_005_4.webp?compress=true&q=70"
+              alt=""
+            />
+            <div className={styles.overlay}>
+              <p className={styles.overlayText}> OVAL D COLLECTION</p>
+            </div>
+          </div>
+          <div className={styles.thefour}>
+            <img
+              className={styles.thefourimage}
+              src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/cms_images/16891562851676638608GEN6_GRIFFED_SMARTWATCH_FW22_STILLS_DZT2042_JPEG_GEN6_Still__HO22___DZT2042__16-9.webp?compress=true&q=70"
+              alt=""
+            />
+            <div className={styles.overlay}>
+              <p className={styles.overlayText}>WATCHES</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class={styles.parenteightimage}>
+  <div class={styles.topimages}>
+    <div class={styles.eightimage}>
+      <img class={styles.alleightimage} src="https://dibackend.dieselindia.com//cms_images/1671614479icons-01.webp" alt="" />
+      <p class="imagetext">PERSONALISED STYLING</p>
+    </div>
+    <div class={styles.eightimage}>
+      <img class={styles.alleightimage} src="https://dibackend.dieselindia.com//cms_images/1671614498icons-02.webp" alt="" />
+      <p class="imagetext">30 DAY FREE RETURN</p>
+    </div>
+    <div class={styles.eightimage}>
+      <img class={styles.alleightimage} src="https://dibackend.dieselindia.com//cms_images/1671614517icons-03.webp" alt="" />
+      <p class="imagetext">AUTHENTIC PRODUCTS</p>
+    </div>
+    <div class={styles.eightimage}>
+      <img class={styles.alleightimage} src="https://dibackend.dieselindia.com//cms_images/1671614563icons-04.webp" alt="" />
+      <p class="imagetext">FLEXIBLE & SECURE PAYMENTS</p>
+    </div>
+    <div class={styles.eightimage}>
+      <img class={styles.alleightimage} src="https://dibackend.dieselindia.com//cms_images/1671614575icons-05.webp" alt="" />
+      <p class="imagetext">LIFETIME SUPPORT</p>
+    </div>
+    {/* <!-- Add four more image containers here --> */}
+  </div>
+  <div class={styles.bottomimages}>
+    <div class={styles.eightimage}>
+      <img class={styles.parenteightimage}src="https://dibackend.dieselindia.com//cms_images/1671614585icons-06.webp" alt="" />
+      <p class="imagetext">PRE - ORDER</p>
+    </div>
+    <div class={styles.eightimage}>
+      <img class={styles.alleightimage} src="https://dibackend.dieselindia.com//cms_images/1671614595icons-07.webp" alt="" />
+      <p class="imagetext">EXCLUSIVE OFFERS</p>
+    </div>
+    <div class={styles.eightimage}>
+      <img class={styles.alleightimage} src="https://dibackend.dieselindia.com//cms_images/1671614606icons-08.webp" alt="" />
+      <p class="imagetext">FREE SHIPPING</p>
+    </div>
+    {/* <!-- Add two more image containers here --> */}
+  </div>
+</div>
+
+
+      <div className={styles.diesellib}>
+        <img
+          className={styles.diesellibimage}
+          src="https://dibackend.dieselindia.com/cms_images/1682423620Desktop.webp"
+          alt=""
+        />
+        <div id={styles.backrgroundcolor}>
+          <a className={styles.showresponse} href="#">
+            SHOW RESPONSIBLE COLLECTION
+          </a>
+        </div>
+      </div>
+      <Footer/>
     </>
   );
 };
