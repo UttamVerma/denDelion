@@ -34,7 +34,7 @@
             "e-mail":""
         }
     ],
-    "man_t-shirts":[
+    "man":[
         {
             "id":1,
             "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410372663005/665/410372663005_1_6137.webp?compress=true&q=70",
@@ -91,11 +91,7 @@
             "price":"₹6,999.00 ₹9,999.00(30% OFF)",
             "name":"T-WASH-G6 Black Man Regular T-shirt",
             "discription":"Unisex T-shirt crafted from organic cotton. Boldly embroidered with a script logo and crown emblem, this style has an oversized fit and red stripes highlighting the crew neck."
-        }
-      
-
-    ],
-    "man_shoes":[
+        },
         {
             "id":9,
             "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345240005/665/410345240005_1_9828.webp?compress=true&q=70",
@@ -151,9 +147,7 @@
             "price":"₹17,499.00 ₹24,999.00(30% OFF)",
             "name":"S-SERENDIPITY SPORT Men Beige Sneakers",
             "discription":"Sporty unisex sneakers informed by 2000s styles. Crafted from breathable bicolour mesh, these shoes feature patent and vintage suede overlays, padded D branding and cushioned midsoles."
-        }
-    ],
-    "man_jeans" :[
+        },
         {
             "id":17,
             "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315218010/665/410315218010_1.webp?compress=true&q=70",
@@ -209,9 +203,7 @@
             "price":"MRP ₹34,999.00 ₹24,499.00 (30% Off)",
             "name":"D-STRUKT SLIM FIT MAN BLACK MEDIUM WASHED JOGGJEANS®",
             "discription":"Slim style with a clean construction crafted in JoggJeans® for the utmost comfort."
-        }
-    ],
-    "men_assesories":[
+        },
         {
             "id":25,
             "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345320001/665/410345320001_1_8719.webp?compress=true&q=70",
@@ -269,7 +261,7 @@
             "discription":"Men's cotton twill bucket hat with stitching on the brim. Branded with an embroidered oval 'D' patch on the front."
         }
     ],
-    "women_assesories":[
+    "women":[
         {
             "id":33,
             "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315243001/665/410315243001_1.webp?compress=true&q=70",
@@ -325,9 +317,7 @@
             "price":"₹3,499.00 ₹6,999.00(50% OFF)",
             "name":"B-ALYEN Women Black Belt",
             "discription":"This belt's unisex design is crafted from leather and has an oval metal buckle engraved with a vintage Diesel logo."
-        }
-    ],
-    "women_jeans":[
+        },
         {
             "id":41,
             "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315307008/665/410315307008_1.webp?compress=true&q=70",
@@ -390,9 +380,7 @@
             "price":"₹14,999.00 ₹24,999.00(40% OFF)",
             "name":"1969 D-EBBEY-SP CLEAN BLUE WOMAN BOOTCUT AND FLARE JEANS",
             "discription":"Bootcut style with a low waist and higher back coverage. This classic slim jean with a bohemien attitude hugs the body from the hips to the knees. A cut-off waist and frayed hems update the look. The fabric is made using 30% certified recycled cotton, reducing the use of virgin resources. Crafted from stretch denim with partially recycled fibres, this light blue wash has a clean finish, with raw-cut details for an edgy twist."
-        }
-    ],
-    "women_shoes":[
+        },
         {
             "id":49,
             "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315346004/665/410315346004_1.webp?compress=true&q=70",
@@ -420,9 +408,7 @@
             "price":"₹18,899.00 ₹26,999.00(30% OFF)",
             "name":"S-SERENDIPITY SPORT W BLUE WOMAN SNEAKERS",
             "discription":"Inspired by sporty styles from the 2000s, these women's sneakers are built from breathable mesh. Topped with tonal leather overlays with a pearlescent effect, they feature a heat-pressed logo patch on the tongue and a cushioned midsole."
-        }
-    ],
-    "women":[
+        },
         {
             "id":53,
             "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410315113005/665/410315113005_1_4547.webp?compress=true&q=70",
@@ -480,7 +466,7 @@
             "discription":"Regular-fit jersey T-shirt with mélange effect, featuring an eyelash curler print and an embroidered 'Youthility' slogan. This garment is made using certified organic cotton and certified recycled polyester. Fits large to size, take one size smaller than normal."
         }
     ],
-    "kid_jean":[
+    "kid":[
         {
             "id":61,
             "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345358005/665/410345358005_1_3427.webp?compress=true&q=70",
@@ -536,9 +522,7 @@
             "price":"₹4,999.00 ₹9,999.00(50% OFF)",
             "name":"Thommer Slim Fit Boys Green Jeans",
             "discription":"Slim style with clean design. The leg narrows from knee to ankle and has more room on the thigh. The pair is crafted from Track Denim and features a coloured wash."
-        }
-    ],
-    "kid_t-shirts":[
+        },
         {
             "id":69,
             "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410373537005/665/410373537005_1_7090.webp?compress=true&q=70",
@@ -594,9 +578,7 @@
             "price":"₹8,999.00 ₹5,399.00 (40% Off)",
             "name":"TENNIX OVER REGULAR KID T-SHIRT",
             "discription":"This short-sleeve boy's tee is designed with a layered look, inspired by basketball uniforms. The top is crafted from technical fabric with an all-over matte and shiny monogram, and features a V-neckline, contrasting trims, and white cotton sleeves."
-        }
-    ],
-    "kid_jacket":[
+        },
         {
             "id":77,
             "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/product/410345346015/665/410345346015_1_4228.webp?compress=true&q=70",
@@ -653,7 +635,16 @@
             "name":"JDOLMIR21-SL REGULAR FIT BOYS BLACK JACKET",
             "discription":"Styled with narrow horizontal quilting, this kids' gilet is crafted from nylon and lined in a contrast tone. Edged with stretch trims for comfort, it's branded with a rubber logo patch on the chest."
         }
+    ],
+    "watches":[
+        {
+            "id":85,
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/product/410321637001/300/410321637001_1_7617.webp",
+            "price":"₹9,495.00 ₹7,596.00 (20% Off)",
+            "name":"DIESEL DOUBLE UP BLACK WATCH DZ1982",
+            "discription":"Diesel's 43mm Double Up watch features a black and white sunray dial, three-hand movement and black silicone strap"
+        }
     ]
 }
 
-  
+   

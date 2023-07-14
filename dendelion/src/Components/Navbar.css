@@ -1,6 +1,7 @@
 .logo{
     width:auto ;
     height:50px ;
+    cursor: pointer;
 }
 .man{
     /* text-decoration: none;
@@ -56,33 +57,39 @@
     /* justify-content: space-between; */
     padding-right:70px;
     /* border: 1px solid white; */
+    cursor: pointer;
 }
 .profileicon{
     height: 33px;
     border: 1px solid white;
     padding: 7px 5px 5px 5px;
+    cursor: pointer;
     
 }
 .questionicon{
     height: 33px;
     border: 1px solid white;
     padding: 7px 5px 5px 5px;
+    cursor: pointer;
 }
 .searchicon{
     height: 33px;
     border: 1px solid white;
     padding: 7px 5px 5px 5px;
+    cursor: pointer;
 }
 .hearticon{
     height: 33px;
     border: 1px solid white;
     padding: 7px 5px 5px 5px;
+    cursor: pointer;
 }
 .shoppingbagicon{
     height: 33px;
     border: 1px solid white;
     padding: 7px 5px 5px 5px;
     /* margin-right: 9px; */
+    cursor: pointer;
 }
 .navbar{
     background-color: #d23435;
@@ -151,3 +158,33 @@
     }
   }
   
+  .parentsearchinput{
+    width: 95%;
+    padding-right: 5%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: fixed;
+    top: 10vh;
+    z-index: 50;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 5000px;
+  }
+
+  .searchinput{
+    width: 80%;
+    height: 96%;
+    border: none;
+    padding-left: 15%;
+  }
+  
+  .searchinput:focus{
+    outline: none;
+    border: none;
+  }
+
+  .cancel{
+    color: black;
+    cursor: pointer;
+  }

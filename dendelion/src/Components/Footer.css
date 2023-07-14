@@ -17,9 +17,11 @@
 }
 .socialheader{
     font-weight: 700;
+    padding-top: 40px;
     font-size: 24px;
     text-transform: none;
     margin-top: 50px;
+    color: rgb(112, 110, 110);
 }
 
 .footer {
@@ -110,3 +112,12 @@
     margin-left: 40px;
     margin-top: 30px;
   }
+  .signupbutton{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 90px 10px 90px;
+    margin-bottom: 30px;
+    }

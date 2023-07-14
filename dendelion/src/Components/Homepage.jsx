@@ -2,9 +2,19 @@ import styles from "./Homepage.module.css";
 import Navbar from "./Navbar";
 import homepageimage from "./hpageimage.gif";
 import Slider from "./SliderNavbar";
-import Footer from "./Footer"
+import Footer from "./Footer";
+import { useNavigate } from "react-router-dom";
 
 let Homepage = () => {
+
+  let navigate=useNavigate();
+  
+  let manNavigator=()=>{
+    navigate("/Man");
+  }
+  let WomanNavigator=()=>{
+    navigate("/Woman");
+  }
   return (
     <>
       <Slider />
@@ -13,8 +23,8 @@ let Homepage = () => {
       <div className={styles.homepagegif}>
         <img className={styles.homepageiamge} src={homepageimage} alt="" />
         <div className={styles.buttoncontainer}>
-          <a className={styles.imagebutton}>SHOP MAN</a>
-          <a className={styles.imagebutton1}>SHOP WOMAN</a>
+          <a className={styles.imagebutton} onClick={manNavigator}>SHOP MAN</a>
+          <a className={styles.imagebutton1} onClick={WomanNavigator}>SHOP WOMAN</a>
         </div>
       </div>
 
@@ -167,13 +177,20 @@ let Homepage = () => {
             src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/banner/1688046019SS23_DROP2_LOOKBOOK___OPC_SELL_OUT_CROPS_REHAB_DENIM_1_1_SS23DROP2-16_2.webp?compress=true&q=70"
             alt=""
           />
+          <div id={styles.selectthings}>
+            <h2>MENS JEANS</h2>
+          </div>
         </div>
+
         <div className={styles.selectcategoryparentimage}>
           <img
             className={styles.selectcategoryimage}
             src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/banner/1680864326SS23_DROP2_LOOKBOOK___OPC_SELL_OUT_CROPS_FTW__PROTOTYPE_CR_1_1_SS23DROP2-18_2.webp?compress=true&q=70"
             alt=""
           />
+          <div id={styles.selectthings}>
+            <h2>MENS SHOES</h2>
+          </div>
         </div>
         <div className={styles.selectcategoryparentimage}>
           <img
@@ -181,6 +198,9 @@ let Homepage = () => {
             src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/banner/1688045447SS23_DROP2_LOOKBOOK___OPC_SELL_OUT_CROPS_TIGER_BREAKS_1_1_SS23DROP2-7_2.webp?compress=true&q=70"
             alt=""
           />
+          <div id={styles.selectthings}>
+            <h2>WOMENS JEANS</h2>
+          </div>
         </div>
         <div className={styles.selectcategoryparentimage}>
           <img
@@ -188,6 +208,9 @@ let Homepage = () => {
             src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/banner/1688045313SS23_DROP2_LOOKBOOK___OPC_SELL_OUT_CROPS_PASTEL___NEON_1_1_SS23DROP2-10_2.webp?compress=true&q=70"
             alt=""
           />
+          <div id={styles.selectthings}>
+            <h2>MENS T-SHIRTS</h2>
+          </div>
         </div>
         <div className={styles.selectcategoryparentimage}>
           <img
@@ -195,12 +218,15 @@ let Homepage = () => {
             src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/original/banner/1688045691SS23_DROP3_RUNWAY_SHOW_LOOKBOOK___OPC_SELL_OUT_CROPS_POP_MAIN_STORY_(UX)_1_1_SS23DROP3-12_2.webp?compress=true&q=70"
             alt=""
           />
+          <div id={styles.selectthings}>
+            <h2>WOMENS BAG</h2>
+          </div>
         </div>
       </div>
 
       <div className={styles.salepic}>
         <div className={styles.first}>
-          <h2 className={styles.headingtext}>SALE PICKS</h2>
+          <h2 className={styles.headingtext}>HIGHLIGHTS</h2>
           <a href="#" id={styles.man}>
             <u>MAN</u> <span id={styles.midman}>|</span>{" "}
             <span id={styles.woman}>WOMAN</span>
@@ -210,9 +236,8 @@ let Homepage = () => {
           </div>
           <div className={styles.salepara}>
             <p>
-              Always cool, always in style, the D-STRUKT is an essential denim
-              silhouette defined by a{" "}
-              <b>slim leg, mid-rise waist and classic fit.</b>
+              A new evolution of the signature Diesel monogram, spelled out and
+              applied to <b> Denim, Ready to Wear and Accessories </b>
             </p>
             <div>
               <button className={styles.shopBtn}>
@@ -324,50 +349,78 @@ let Homepage = () => {
         </div>
       </div>
 
-
-
-
       <div class={styles.parenteightimage}>
-  <div class={styles.topimages}>
-    <div class={styles.eightimage}>
-      <img class={styles.alleightimage} src="https://dibackend.dieselindia.com//cms_images/1671614479icons-01.webp" alt="" />
-      <p class="imagetext">PERSONALISED STYLING</p>
-    </div>
-    <div class={styles.eightimage}>
-      <img class={styles.alleightimage} src="https://dibackend.dieselindia.com//cms_images/1671614498icons-02.webp" alt="" />
-      <p class="imagetext">30 DAY FREE RETURN</p>
-    </div>
-    <div class={styles.eightimage}>
-      <img class={styles.alleightimage} src="https://dibackend.dieselindia.com//cms_images/1671614517icons-03.webp" alt="" />
-      <p class="imagetext">AUTHENTIC PRODUCTS</p>
-    </div>
-    <div class={styles.eightimage}>
-      <img class={styles.alleightimage} src="https://dibackend.dieselindia.com//cms_images/1671614563icons-04.webp" alt="" />
-      <p class="imagetext">FLEXIBLE & SECURE PAYMENTS</p>
-    </div>
-    <div class={styles.eightimage}>
-      <img class={styles.alleightimage} src="https://dibackend.dieselindia.com//cms_images/1671614575icons-05.webp" alt="" />
-      <p class="imagetext">LIFETIME SUPPORT</p>
-    </div>
-    {/* <!-- Add four more image containers here --> */}
-  </div>
-  <div class={styles.bottomimages}>
-    <div class={styles.eightimage}>
-      <img class={styles.parenteightimage}src="https://dibackend.dieselindia.com//cms_images/1671614585icons-06.webp" alt="" />
-      <p class="imagetext">PRE - ORDER</p>
-    </div>
-    <div class={styles.eightimage}>
-      <img class={styles.alleightimage} src="https://dibackend.dieselindia.com//cms_images/1671614595icons-07.webp" alt="" />
-      <p class="imagetext">EXCLUSIVE OFFERS</p>
-    </div>
-    <div class={styles.eightimage}>
-      <img class={styles.alleightimage} src="https://dibackend.dieselindia.com//cms_images/1671614606icons-08.webp" alt="" />
-      <p class="imagetext">FREE SHIPPING</p>
-    </div>
-    {/* <!-- Add two more image containers here --> */}
-  </div>
-</div>
-
+        <div class={styles.topimages}>
+          <div class={styles.eightimage}>
+            <img
+              class={styles.alleightimage}
+              src="https://dibackend.dieselindia.com//cms_images/1671614479icons-01.webp"
+              alt=""
+            />
+            <p class="imagetext">PERSONALISED STYLING</p>
+          </div>
+          <div class={styles.eightimage}>
+            <img
+              class={styles.alleightimage}
+              src="https://dibackend.dieselindia.com//cms_images/1671614498icons-02.webp"
+              alt=""
+            />
+            <p class="imagetext">30 DAY FREE RETURN</p>
+          </div>
+          <div class={styles.eightimage}>
+            <img
+              class={styles.alleightimage}
+              src="https://dibackend.dieselindia.com//cms_images/1671614517icons-03.webp"
+              alt=""
+            />
+            <p class="imagetext">AUTHENTIC PRODUCTS</p>
+          </div>
+          <div class={styles.eightimage}>
+            <img
+              class={styles.alleightimage}
+              src="https://dibackend.dieselindia.com//cms_images/1671614563icons-04.webp"
+              alt=""
+            />
+            <p class="imagetext">FLEXIBLE & SECURE PAYMENTS</p>
+          </div>
+          <div class={styles.eightimage}>
+            <img
+              class={styles.alleightimage}
+              src="https://dibackend.dieselindia.com//cms_images/1671614575icons-05.webp"
+              alt=""
+            />
+            <p class="imagetext">LIFETIME SUPPORT</p>
+          </div>
+          {/* <!-- Add four more image containers here --> */}
+        </div>
+        <div class={styles.bottomimages}>
+          <div class={styles.eightimage}>
+            <img
+              class={styles.parenteightimage}
+              src="https://dibackend.dieselindia.com//cms_images/1671614585icons-06.webp"
+              alt=""
+            />
+            <p class="imagetext">PRE - ORDER</p>
+          </div>
+          <div class={styles.eightimage}>
+            <img
+              class={styles.alleightimage}
+              src="https://dibackend.dieselindia.com//cms_images/1671614595icons-07.webp"
+              alt=""
+            />
+            <p class="imagetext">EXCLUSIVE OFFERS</p>
+          </div>
+          <div class={styles.eightimage}>
+            <img
+              class={styles.alleightimage}
+              src="https://dibackend.dieselindia.com//cms_images/1671614606icons-08.webp"
+              alt=""
+            />
+            <p class="imagetext">FREE SHIPPING</p>
+          </div>
+          {/* <!-- Add two more image containers here --> */}
+        </div>
+      </div>
 
       <div className={styles.diesellib}>
         <img
@@ -381,7 +434,7 @@ let Homepage = () => {
           </a>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
