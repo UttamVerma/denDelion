@@ -1,17 +1,22 @@
 .theimage{
     height: 99%;
     width: 99%;
+    margin-left: 18%;
 
 }
 
 .parentdivofimage{
     display: flex;
+    /* margin-left: 20%; */
+    margin-bottom: 5%;
 }
-
+.parentdivofcontent{
+    margin-left:20%;
+}
 .divofcontent{
     /* display: flex; */
     font-size: 1.5rem;
-    margin: 0;
+    margin-top: 5%;
     line-height: 2.125rem;
     letter-spacing: .05rem;
     text-align: left;
@@ -27,4 +32,64 @@
 }
 .taxline{
     text-align: left;
+}
+.addcart{
+    width: 80%;
+    height: 5vh;
+    text-transform: uppercase;
+    font-family: "Scto_Grotesk_Regular";
+    font-family: var(--fontFamily);
+    font-size: .875rem;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: .0625rem;
+    background-color: #000;
+    color: #fff;
+    margin-right: 19%;
+    margin-top: 10%;
+    border: none;
+    text-decoration: none;
+    
+}
+.addcart:hover{
+    opacity: 0.7;
+}
+.addfav{
+    width: 80%;
+    height: 5vh;
+    text-transform: uppercase;
+    font-family: "Scto_Grotesk_Regular";
+    font-family: var(--fontFamily);
+    font-size: .875rem;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: .0625rem;
+    background-color: #000;
+    color: #fff;
+    margin-right: 19%;
+    margin-top: 3vh;
+    border: none;
+    text-decoration: none;
+}
+.addfav:hover{
+    opacity: 0.7;
+}
+.discrip{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    color: #000;
+    /* margin-bottom: 27px; */
+    cursor: pointer;
+    text-align: left;
+    margin-top: 10%;
+}
+.discripcontent{
+    margin: 10px 0;
+    font-size: 14px;
+    letter-spacing: .5px;
+    position: relative;
+    text-align: left;
+    width: 80%;
 }
