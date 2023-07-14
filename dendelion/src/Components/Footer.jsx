@@ -46,6 +46,7 @@ let Footer = () => {
               </span>
             </a>
           </p>
+          <button className="signupbutton"><b>SIGN UP</b></button>
         </div>
         <div className="secondpartfooter">
           <h4 className="socialheader">Connect with us on social media</h4>
