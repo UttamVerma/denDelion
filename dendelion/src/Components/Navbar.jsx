@@ -34,6 +34,12 @@ const Navbar = () => {
   let signupNavigator=()=>{
     navigate("/signup");
   }
+  let cartNavigator=()=>{
+    navigate("/Cart");
+  }
+  let WishlistNavigator=()=>{
+    navigate("/Wishlist");
+  }
   return (
     <>
       {showinput ? (
@@ -75,8 +81,8 @@ const Navbar = () => {
             onClick={inputhandler}
           />
           <img className="questionicon" src={question} alt="" onClick={helpNavigator}/>
-          <img className="hearticon" src={heart} alt="" />
-          <img className="shoppingbagicon" src={shoppingbag} alt="" />
+          <img className="hearticon" src={heart} alt="" onClick={WishlistNavigator}/>
+          <img className="shoppingbagicon" src={shoppingbag} alt="" onClick={cartNavigator} />
         </div>
       </nav>
       {/* <Footer /> */}

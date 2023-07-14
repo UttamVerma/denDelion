@@ -188,3 +188,13 @@
     color: black;
     cursor: pointer;
   }
+  .man:hover{
+    color: black;
+  }
+  .kid:hover{
+    color: black;
+  }
+  .woman:hover{
+    color: black;
+  }
+  
