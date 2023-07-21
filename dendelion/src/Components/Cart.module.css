@@ -107,3 +107,156 @@
   margin: auto;
  
 }
+
+@media   only screen and (max-width: 728px) {
+    .name{
+      /* width: 905%; */
+      font-size: 10px;
+      /* width: auto; */
+     }
+     .parent{
+        display: block;
+     }
+     .image{
+        height: 41%;
+        width: 16%;
+     }
+  }
+
+
+  @media (max-width: 768px) {
+    .main {
+      flex-direction: column; /* Change the flex direction to column */
+    }
+
+    .name{
+        position: absolute;
+        margin-left: 10%;
+    }
+  
+    .movetocheck {
+      display: block; /* Show the movetocheck div when screen width is 768px or less */
+      margin-top: 20px; /* Add some space between the cart items and the movetocheck div */
+    }
+
+    .deleteimage{
+        width: 10%;
+        height: 30px;
+    }
+
+    .image{
+        width: 30%;
+    }
+  }
+
+  @media   only screen and (max-width: 628px) {
+    .name{
+    
+      font-size:10px;
+      
+     }
+     .parent{
+        display: block;
+     }
+     .image{
+        height: 41%;
+        width: 16%;
+     }
+  }
+/* Styles for screens larger than or equal to 768 pixels */
+
+  
+  /* Styles for screens smaller than 768 pixels */
+  @media (max-width: 767px) {
+    .parent {
+      flex-direction: column;
+    }
+  
+    .detailsDiv {
+      /* Adjust the width and styles for the individual item container in mobile view */
+      width: 100%; /* Set to full width of the container */
+    }
+
+  
+    .detailsDiv p.price {
+      /* Additional styles for the price paragraph in mobile view */
+      width: 100%; /* Make the price span across the full width */
+    }
+    .subtractbutton{
+        margin-bottom: -30%;
+
+    }
+    .addbutton{
+        margin-bottom: -30%;
+    }
+    .quantity{
+        margin-bottom: -25%;
+    }
+    .deleteimage{
+        margin-bottom: -30%;
+    }
+    .price{
+        margin-bottom: -24%;
+    }
+  }
+  
+
+
+  @media (max-width: 607px) {
+    
+    .subtractbutton{
+        margin-bottom: -35%;
+        margin-bottom: -35%;
+        padding: 5px 10px;
+        font-size: 5%;
+    }
+    .addbutton{
+        margin-bottom: -35%;
+        padding: 5px 10px;
+        font-size: 5%;
+    }
+    .quantity{
+        margin-bottom: -30%;
+        
+    }
+    .deleteimage{
+        margin-bottom: -35%;
+        height: 9%;
+    }
+    .price{
+        margin-bottom: -28%;
+    }
+    .name{
+        margin-top: -5vh;
+        letter-spacing: 1px;
+        display: block;
+
+    }
+  }
+
+  @media (max-width: 447px) {
+    
+    .subtractbutton{
+        margin-bottom: -45%;
+
+    }
+    .addbutton{
+        margin-bottom: -45%;
+    }
+    .quantity{
+        margin-bottom: -40%;
+    }
+    .deleteimage{
+        margin-bottom: -45%;
+    }
+    .price{
+        margin-bottom: -42%;
+        font-size: 11px;
+    }
+    .name{
+        margin-left: 50px;
+        position: absolute;
+        width: 30%;
+        display: block;
+    }
+  }

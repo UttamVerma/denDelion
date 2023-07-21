@@ -1,53 +1,330 @@
-.logo{
-    width:auto ;
-    height:50px ;
-    cursor: pointer;
+.logo {
+  width: auto;
+  height: 50px;
+  cursor: pointer;
 }
-.man{
-    /* text-decoration: none;
+.man {
+  /* text-decoration: none;
     color: white;
      */
 
-     text-decoration: none;
-     color: #fff;
-     font-size: 14px;
-     padding: 17px 13px;
-     text-transform: uppercase;
-     font-weight: 700;
-     font-family: "Scto_Grotesk_Regular";
-     font-family: var(--fontFamily);
-     transition: all .5s;
-     cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 17px 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Scto_Grotesk_Regular";
+  font-family: var(--fontFamily);
+  transition: all 0.5s;
+  cursor: pointer;
 }
-.woman{
-    
-    text-decoration: none;
-    color: #fff;
-    font-size: 14px;
-    padding: 17px 13px;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-family: "Scto_Grotesk_Regular";
-    font-family: var(--fontFamily);
-    transition: all .5s;
-    cursor: pointer;
+.woman {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 17px 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Scto_Grotesk_Regular";
+  font-family: var(--fontFamily);
+  transition: all 0.5s;
+  cursor: pointer;
 }
-.kid{
-    
-    text-decoration: none;
-    color: #fff;
-    font-size: 14px;
-    padding: 17px 13px;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-family: "Scto_Grotesk_Regular";
-    font-family: var(--fontFamily);
-    transition: all .5s;
-    cursor: pointer;
-    /* padding-right: 330px; */
+.kid {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 17px 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Scto_Grotesk_Regular";
+  font-family: var(--fontFamily);
+  transition: all 0.5s;
+  cursor: pointer;
+  /* padding-right: 330px; */
 }
 
-.profilediv{
+.profilediv {
+  background-color: #d23435;
+  /* height: 40px; */
+  /* width: 50%; */
+  width: 15%;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding-right: 70px;
+  /* border: 1px solid white; */
+  cursor: pointer;
+}
+.profileicon {
+  height: 33px;
+  border: 1px solid white;
+  padding: 7px 5px 5px 5px;
+  cursor: pointer;
+}
+.questionicon {
+  height: 33px;
+  border: 1px solid white;
+  padding: 7px 5px 5px 5px;
+  cursor: pointer;
+}
+.searchicon {
+  height: 33px;
+  border: 1px solid white;
+  padding: 7px 5px 5px 5px;
+  cursor: pointer;
+}
+.hearticon {
+  height: 33px;
+  border: 1px solid white;
+  padding: 7px 5px 5px 5px;
+  cursor: pointer;
+}
+.shoppingbagicon {
+  height: 33px;
+  border: 1px solid white;
+  padding: 7px 5px 5px 5px;
+  /* margin-right: 9px; */
+  cursor: pointer;
+}
+.navbar {
+  background-color: #d23435;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  position: sticky;
+  z-index: 101;
+  top: 0;
+}
+.typeofperson {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid white; */
+  margin-left: 50px;
+}
+.logodiv {
+  margin-top: 10px;
+}
+.slidernavbar {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  font-family: "Scto_Grotesk_Regular";
+  font-family: var(--fontFamily);
+  color: red;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  animation: slideRight 10s linear infinite;
+}
+
+.slider-text {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  font-family: "Scto_Grotesk_Regular";
+  font-family: var(--fontFamily);
+  color: red;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(100%);
+  }
+  20% {
+    transform: translateX(0%);
+  }
+  80% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.parentsearchinput {
+  width: 100%;
+  padding-right: 5%;
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  position: fixed;
+  top: 10vh;
+  z-index: 50;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 5000px;
+  /* border: 1px solid blueviolet; */
+}
+.formparent {
+  width: 90%;
+  display: flex;
+}
+.searchinput {
+  width: 100%;
+  /* height: 96%; */
+  border: none;
+  padding-left: 15%;
+  /* border: 1px solid black; */
+}
+
+.searchinput:focus {
+  outline: none;
+  border: none;
+}
+
+.cancel {
+  color: black;
+  cursor: pointer;
+}
+.man:hover {
+  color: black;
+}
+.kid:hover {
+  color: black;
+}
+.woman:hover {
+  color: black;
+}
+
+.cardman {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 600px;
+  margin-bottom: 40px;
+  /* cursor: pointer; */
+  row-gap: 2.2%;
+  margin-top: 2%;
+}
+.imageman {
+  width: 100%;
+  height: 90%;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+
+.nameofitem {
+  text-align: left;
+  margin-left: 10%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 90%;
+  white-space: inherit;
+}
+.priceofitem {
+  text-align: left;
+  margin-left: 10%;
+}
+.searchbutton {
+  background-color: white;
+  /* border: none; */
+  text-decoration: none;
+  color: black;
+}
+.addtocartbutton {
+  background-color: rgb(0, 96, 100);
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  /* margin-left: 18%; */
+  margin-top: 2%;
+}
+.addtowishlbutton {
+  text-decoration: none;
+
+  background-color: rgb(173, 20, 87);
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+
+.loadingText {
+  width: 100%;
+  margin: auto;
+}
+
+/* Add this CSS to your existing styles */
+
+/* Set a fixed height for the navbar */
+.navbar {
+  height: 70px;
+}
+
+@media all and (max-width: 500px) {
+  .logo {
+    width: auto;
+    height: 40px;
+    cursor: pointer;
+  }
+  .man {
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+    margin-left: -50px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Scto_Grotesk_Regular";
+    font-family: var(--fontFamily);
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .woman {
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Scto_Grotesk_Regular";
+    font-family: var(--fontFamily);
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .kid {
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Scto_Grotesk_Regular";
+    font-family: var(--fontFamily);
+    transition: all 0.5s;
+    cursor: pointer;
+    /* padding-right: 330px; */
+  }
+
+  .profilediv {
     background-color: #d23435;
     /* height: 40px; */
     /* width: 50%; */
@@ -55,43 +332,43 @@
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
-    padding-right:70px;
+    /* padding-right: 70px; */
     /* border: 1px solid white; */
     cursor: pointer;
-}
-.profileicon{
-    height: 33px;
+  }
+  .profileicon {
+    height: 20px;
+    margin-left: -25px;
     border: 1px solid white;
     padding: 7px 5px 5px 5px;
     cursor: pointer;
-    
-}
-.questionicon{
-    height: 33px;
+  }
+  .questionicon {
+    height: 20px;
     border: 1px solid white;
     padding: 7px 5px 5px 5px;
     cursor: pointer;
-}
-.searchicon{
-    height: 33px;
+  }
+  .searchicon {
+    height: 20px;
     border: 1px solid white;
     padding: 7px 5px 5px 5px;
     cursor: pointer;
-}
-.hearticon{
-    height: 33px;
+  }
+  .hearticon {
+    height: 20px;
     border: 1px solid white;
     padding: 7px 5px 5px 5px;
     cursor: pointer;
-}
-.shoppingbagicon{
-    height: 33px;
+  }
+  .shoppingbagicon {
+    height: 20px;
     border: 1px solid white;
     padding: 7px 5px 5px 5px;
     /* margin-right: 9px; */
     cursor: pointer;
-}
-.navbar{
+  }
+  .navbar {
     background-color: #d23435;
     display: flex;
     justify-content: space-between;
@@ -99,32 +376,32 @@
     position: sticky;
     z-index: 101;
     top: 0;
-}
-.typeofperson{
+  }
+  .typeofperson {
     width: 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* border: 1px solid white; */
     margin-left: 50px;
-}
-.logodiv{
-    margin-top:10px ;
-}
-.slidernavbar{
+  }
+  .logodiv {
+    margin-top: 10px;
+  }
+  .slidernavbar {
     font-size: 20px;
     letter-spacing: 1px;
-    margin-bottom: 0!important;
-    margin-top: 0!important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
     font-family: "Scto_Grotesk_Regular";
     font-family: var(--fontFamily);
     color: red;
-}
+  }
 
-.main {
+  .main {
     overflow: hidden;
   }
-  
+
   .slider-container {
     display: flex;
     justify-content: center;
@@ -132,17 +409,17 @@
     white-space: nowrap;
     animation: slideRight 10s linear infinite;
   }
-  
+
   .slider-text {
     font-size: 20px;
     letter-spacing: 1px;
-    margin-bottom: 0!important;
-    margin-top: 0!important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
     font-family: "Scto_Grotesk_Regular";
     font-family: var(--fontFamily);
     color: red;
   }
-  
+
   @keyframes slideRight {
     0% {
       transform: translateX(100%);
@@ -157,8 +434,8 @@
       transform: translateX(-100%);
     }
   }
-  
-  .parentsearchinput{
+
+  .parentsearchinput {
     width: 100%;
     padding-right: 5%;
     height: 10vh;
@@ -172,37 +449,37 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 5000px;
     /* border: 1px solid blueviolet; */
   }
-.formparent{
-  width: 90%;
-  display: flex;
-}
-  .searchinput{
+  .formparent {
+    width: 90%;
+    display: flex;
+  }
+  .searchinput {
     width: 100%;
     /* height: 96%; */
     border: none;
     padding-left: 15%;
     /* border: 1px solid black; */
   }
-  
-  .searchinput:focus{
+
+  .searchinput:focus {
     outline: none;
     border: none;
   }
 
-  .cancel{
+  .cancel {
     color: black;
     cursor: pointer;
   }
-  .man:hover{
+  .man:hover {
     color: black;
   }
-  .kid:hover{
+  .kid:hover {
     color: black;
   }
-  .woman:hover{
+  .woman:hover {
     color: black;
   }
-  
+
   .cardman {
     width: 100%;
     display: grid;
@@ -212,41 +489,40 @@
     /* cursor: pointer; */
     row-gap: 2.2%;
     margin-top: 2%;
-    
   }
   .imageman {
     width: 100%;
-    height: 90%;
+    height: 60%;
   }
-  
- 
-  
-  .parent{
-      display: flex;
-      justify-content: space-between;
-      width: 95%;
-      margin: auto;
+
+  .parent {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
   }
-  
-  .nameofitem{
+
+  .nameofitem {
     text-align: left;
     margin-left: 10%;
     overflow: hidden;
     text-overflow: ellipsis;
     width: 90%;
     white-space: inherit;
+    font-size: 14px;
   }
-  .priceofitem{
+  .priceofitem {
     text-align: left;
     margin-left: 10%;
+    font-size: 14px;
   }
-  .searchbutton{
+  .searchbutton {
     background-color: white;
     /* border: none; */
-    text-decoration:  none;
+    text-decoration: none;
     color: black;
   }
-  .addtocartbutton{
+  .addtocartbutton {
     background-color: rgb(0, 96, 100);
     color: #fff;
     padding: 8px 16px;
@@ -256,10 +532,9 @@
     border-radius: 4px;
     transition: background-color 0.3s ease;
     /* margin-left: 18%; */
-    margin-top: 2%; 
-
+    margin-top: 2%;
   }
-  .addtowishlbutton{
+  .addtowishlbutton {
     text-decoration: none;
 
     background-color: rgb(173, 20, 87);
@@ -271,26 +546,32 @@
     border-radius: 4px;
     transition: background-color 0.3s ease;
     margin-left: 8%;
-    margin-top: 2%; 
+    margin-top: 2%;
   }
 
-  .loadingText{
+  .loadingText {
     width: 100%;
-  margin: auto;
- 
-}
-
-
-/* Add this CSS to your existing styles */
-
-/* Set a fixed height for the navbar */
-.navbar {
-  height: 70px;
-}
-
-/* Add a media query to keep the navbar height fixed for smaller screen sizes */
-@media (max-width: 768px) {
+    margin: auto;
+  }
   .navbar {
     height: 70px;
+  }
+  .cardman {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 600px;
+    margin-bottom: 40px;
+    /* cursor: pointer; */
+    row-gap: 2.2%;
+    margin-top: 2%;
+  }
+}
+@media all and (max-width: 415px) {
+  .logo {
+    width: auto;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 8%;
   }
 }

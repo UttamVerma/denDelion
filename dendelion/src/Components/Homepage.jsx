@@ -6,34 +6,35 @@ import Footer from "./Footer";
 import { useNavigate } from "react-router-dom";
 
 let Homepage = () => {
+  let navigate = useNavigate();
 
-  let navigate=useNavigate();
-  
-  let manNavigator=()=>{
+  let manNavigator = () => {
     navigate("/Man");
-  }
-  let WomanNavigator=()=>{
+  };
+  let WomanNavigator = () => {
     navigate("/Woman");
-  }
-  let TopwearNavigator=()=>{
+  };
+  let TopwearNavigator = () => {
     navigate("/Topwear");
-  }
-  let WatchesNavigator=()=>{
+  };
+  let WatchesNavigator = () => {
     navigate("/Watches");
-  }
+  };
 
-  
   return (
     <>
-    
       <Slider />
       <Navbar />
 
       <div className={styles.homepagegif}>
         <img className={styles.homepageiamge} src={homepageimage} alt="" />
         <div className={styles.buttoncontainer}>
-          <a className={styles.imagebutton} onClick={manNavigator}>SHOP MAN</a>
-          <a className={styles.imagebutton1} onClick={WomanNavigator}>SHOP WOMAN</a>
+          <a className={styles.imagebutton} onClick={manNavigator}>
+            SHOP MAN
+          </a>
+          <a className={styles.imagebutton1} onClick={WomanNavigator}>
+            SHOP WOMAN
+          </a>
         </div>
       </div>
 
@@ -156,7 +157,6 @@ let Homepage = () => {
             <p id={styles.saleitemname}>SLIM</p>
             <h2 id={styles.saleitemprice}>MRP 20,999.00</h2>
           </div>
-       
         </div>
       </div>
 
@@ -269,7 +269,6 @@ let Homepage = () => {
             <p id={styles.saleitemname}>MEDIUM TREATED BLUE</p>
             <h2 id={styles.saleitemprice}>MRP 24,999.00</h2>
           </div>
-        
         </div>
       </div>
 
@@ -281,10 +280,11 @@ let Homepage = () => {
               src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/cms_images/16891561011676638237SS23_DROP2_LOOKBOOK___OPC_SELL_OUT_CROPS_BIG_D_16_9_300dpi_16-9_300DPI.webp?compress=true&q=70"
               alt=""
             />
-           <a onClick={manNavigator}><div className={styles.overlay}>
-              <p className={styles.overlayText}>LOGOMANIA</p>
-            </div>
-            </a>  
+            <a onClick={manNavigator}>
+              <div className={styles.overlay}>
+                <p className={styles.overlayText}>LOGOMANIA</p>
+              </div>
+            </a>
           </div>
           <div className={styles.thefour}>
             <img
@@ -292,9 +292,11 @@ let Homepage = () => {
               src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/cms_images/16891562501680789845SS23_DROP2_LOOKBOOK___OPC_SELL_OUT_CROPS_PASTEL___NEON_16_9_300dpi_16-9_300dpi.webp?compress=true&q=70"
               alt=""
             />
-           <a onClick={TopwearNavigator}> <div className={styles.overlay}>
-              <p className={styles.overlayText}>TOPWEAR</p>
-            </div>
+            <a onClick={TopwearNavigator}>
+              {" "}
+              <div className={styles.overlay}>
+                <p className={styles.overlayText}>TOPWEAR</p>
+              </div>
             </a>
           </div>
         </div>
@@ -305,9 +307,11 @@ let Homepage = () => {
               src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/cms_images/16891561971676638471SS23_DROP2_LOOKBOOK___OPC_SELL_OUT_CROPS_LUNAR_NEW_YEAR_OF_THE_RABBIT__16_9_300dpi_DIESEL_OPC_SS23-2_LNY_RABBIT_FULL_UX_02_005_4.webp?compress=true&q=70"
               alt=""
             />
-           <a onClick={WomanNavigator}> <div className={styles.overlay}>
-              <p className={styles.overlayText}> OVAL D COLLECTION</p>
-            </div>
+            <a onClick={WomanNavigator}>
+              {" "}
+              <div className={styles.overlay}>
+                <p className={styles.overlayText}> OVAL D COLLECTION</p>
+              </div>
             </a>
           </div>
           <div className={styles.thefour}>
@@ -316,9 +320,12 @@ let Homepage = () => {
               src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/cms_images/16891562851676638608GEN6_GRIFFED_SMARTWATCH_FW22_STILLS_DZT2042_JPEG_GEN6_Still__HO22___DZT2042__16-9.webp?compress=true&q=70"
               alt=""
             />
-            <a onClick={WatchesNavigator}> <div className={styles.overlay}>
-              <p className={styles.overlayText}>WATCHES</p>
-            </div></a>
+            <a onClick={WatchesNavigator}>
+              {" "}
+              <div className={styles.overlay}>
+                <p className={styles.overlayText}>WATCHES</p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -402,9 +409,7 @@ let Homepage = () => {
           src="https://dibackend.dieselindia.com/cms_images/1682423620Desktop.webp"
           alt=""
         />
-        <div id={styles.backrgroundcolor}>
-          
-        </div>
+        <div id={styles.backrgroundcolor}></div>
       </div>
       <Footer />
     </>

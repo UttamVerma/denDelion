@@ -154,7 +154,8 @@ const Cart = () => {
                     className={styles.image}
                     alt="Product"
                   />
-                  <strong className={styles.name}>{item.item}</strong>
+                  <div className={styles.name}><b>{item.item}</b></div>
+                 
                   <button
                     className={styles.subtractbutton}
                     disabled={item.quantity === 1}
@@ -163,7 +164,7 @@ const Cart = () => {
                     -
                   </button>{" "}
                   {/* Subtract button */}
-                  <p> {item.quantity}</p> {/* Display quantity */}
+                  <p className={styles.quantity}> {item.quantity}</p> {/* Display quantity */}
                   <button
                     className={styles.addbutton}
                     onClick={() => handleAdd(index)}
