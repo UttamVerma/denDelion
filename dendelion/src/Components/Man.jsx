@@ -1,15 +1,16 @@
-import styles from "./Man.module.css";
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-
+import styles from "./Man.module.css";
+import swal from "sweetalert";
 
 const Man = () => {
-  let navigate=useNavigate();
-  let manindivisual=(Name)=>{
-    navigate(`/${Name}`)
-  }
+  const navigate = useNavigate();
+
+  const manindivisual = (name) => {
+    navigate(`/${encodeURIComponent(name)}`);
+  };
 
   let [totalp, setTotalp] = useState(null);
   let [data, setData] = useState([]);
@@ -17,9 +18,7 @@ const Man = () => {
   let [sortedData, setSortedData] = useState([]);
 
   useEffect(() => {
-    fetch(
-      "https://dendelion-54b09-default-rtdb.firebaseio.com/man.json"
-    )
+    fetch("https://dendelion-54b09-default-rtdb.firebaseio.com/man.json")
       .then((res) => res.json())
       .then((data) => {
         const dataArray = Object.values(data); // Convert the response object to an array
@@ -75,14 +74,16 @@ const Man = () => {
       <div className={styles.cardman}>
         {sortedData.length > 0 ? (
           sortedData.map((item) => (
-            <div key={item.id} onClick={()=> manindivisual(item.name)}>
+            <div key={item.id} onClick={() => manindivisual(item.name)}>
               <img className={styles.imageman} src={item.image} alt="" />
-              <div><b>{item.price}</b></div>
-              <div>{item.name}</div>
+              <div className={styles.priceofitem}>
+                <b>{item.price}</b>
+              </div>
+              <div className={styles.nameofitem}>{item.name}</div>
             </div>
           ))
         ) : (
-          <p>Loading...</p>
+          <img className={styles.loadinggif} src="https://media2.giphy.com/media/xT9DPldJHzZKtOnEn6/200w.webp?cid=ecf05e47yjbr7ay23k1r38hk0j4ztk7tkzro9u1luo1r9f06&ep=v1_gifs_search&rid=200w.webp&ct=g"/>
         )}
       </div>
       <Footer />

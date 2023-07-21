@@ -6,8 +6,14 @@ import Woman from "../Woman.jsx";
 import Kid from "../Kid";
 import Signup from "../Signup.jsx";
 import ManIndivisual from "../ManIndivisual";
+import WomenIndivisual from "../WomenIndivisual";
+// import KidIndivisual from "../KidIndivisual";
 import Cart from "../Cart.jsx"
 import Wishlist from "../Wishlist.jsx";
+import Checkout from "../Checkout.jsx";
+import Topwear from "../Topwear";
+import Watches from "../Watches";
+
 
 let AllRouter=()=>{
     return (
@@ -19,8 +25,13 @@ let AllRouter=()=>{
             <Route path="/Kid" element={<Kid/>}></Route>
             <Route path="/Signup" element={<Signup/>}></Route>
             <Route path="/:Name" element={<ManIndivisual/>}></Route>
+            <Route path="/:WomenName" element={<WomenIndivisual/>}></Route>
+            <Route path="/:KidName" element={<Kid/>}></Route>
             <Route path="/Cart" element={<Cart/>}></Route>
             <Route path="/Wishlist" element={<Wishlist/>}></Route>
+            <Route path="/Checkout" element={<Checkout/>}></Route>
+            <Route path="/Topwear" element={<Topwear/>}></Route>
+            <Route path="/Watches" element={<Watches/>}></Route>
 
         </Routes>
     )

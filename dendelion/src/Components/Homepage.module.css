@@ -194,23 +194,27 @@
   font-size: 18px;
   letter-spacing:.5px;
   display: flex;
+  margin-left: 5%;
 }
 #saleitemname{
-  display: flex;
+  /* display: flex; */
+  width: 100%;
+  /* margin-right: 15%; */
+  text-align: center;
 }
 .salepic1{
   display: flex;
-  width: 60%;
+  width: 50%;
   width: 100%;
   overflow: hidden;
 }
 .automaticimages{
   display: flex; 
-  width: 100%;
+  
   margin-right: 30px;
   /* margin-top: 40px; */
   display: inline-block;
-  width: 100%;
+  width: 80%;
   transition: transform 0.5s ease-in-out;
 
 }
@@ -386,4 +390,23 @@ margin-left: 115px;
   /* border: 1px solid black; */
   font-size: 14px;
   margin-left: 60px;
+}
+
+
+
+/* Add this CSS to your existing styles */
+
+/* Flex container for both top and bottom images */
+
+
+/* Add a media query to change the flex layout for smaller screen sizes */
+@media (max-width: 768px) {
+  .topimages,
+  .bottomimages {
+    flex-direction: column;
+  }
+
+  .eightimage {
+    flex: 0 0 100%; /* Images will take the full width of the container on smaller screens */
+  }
 }

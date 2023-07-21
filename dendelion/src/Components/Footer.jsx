@@ -2,8 +2,13 @@ import "./Footer.css";
 import youtube from "./youtube.png";
 import instagram from "./instagram.png";
 import facebook from "./facebook.png";
+import { useState } from "react";
 
 let Footer = () => {
+  let [email,setEmail]=useState("");
+  let handleSubmit=()=>{
+    setEmail("");
+  }
   return (
     <>
       <div className="footer">
@@ -13,6 +18,8 @@ let Footer = () => {
             className="inputfooter"
             type="text"
             placeholder="Enter your Email address*"
+            value={email}
+            onChange={(e)=> setEmail(e.target.value)}
             spellCheck="false"
             data-ms-editor="true"
           />
@@ -46,7 +53,7 @@ let Footer = () => {
               </span>
             </a>
           </p>
-          <button className="signupbutton"><b>SIGN UP</b></button>
+          <button className="signupbutton" onClick={handleSubmit}><b>SIGN UP</b></button>
         </div>
         <div className="secondpartfooter">
           <h4 className="socialheader">Connect with us on social media</h4>
@@ -57,7 +64,7 @@ let Footer = () => {
           </div>
         </div>
       </div>
-      <p  class="copyright">
+      <p  className="copyright">
         Copyright ©️2021 Dendelion Fashion India Pvt.Ltd
       </p>
     </>
