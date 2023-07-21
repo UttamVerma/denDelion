@@ -6,9 +6,9 @@ import styles from "./Man.module.css";
 import swal from "sweetalert";
 import { AuthContext } from "./AuthContextProvider";
 
-const Kid = () => {
-  let {isLogin,loginEmail}=useContext(AuthContext);
+const Topwear = () => {
   let [totalp, setTotalp] = useState(null);
+  let {isLogin,loginEmail}=useContext(AuthContext);
   let [data, setData] = useState([]);
   let [sortOption, setSortOption] = useState("");
   let [sortedData, setSortedData] = useState([]);
@@ -30,14 +30,13 @@ const Kid = () => {
     }
 
     // Fetch data and set other states
-    fetch("https://dendelion-54b09-default-rtdb.firebaseio.com/kid.json")
+    fetch("https://dendelion-54b09-default-rtdb.firebaseio.com/topwear.json")
       .then((res) => res.json())
       .then((data) => {
         const dataArray = Object.values(data);
         setData(dataArray);
         setSortedData(sortData(dataArray, sortOption));
         setTotalp(dataArray.length);
-   
       });
   }, [sortOption]);
 
@@ -70,16 +69,12 @@ const Kid = () => {
   };
 
   const handleAddToCart = (item) => {
-    if(!isLogin){
-      swal("Login Pending","Login first to add into Cart","error");
-      return ;
-    }
     // Prepare the data to be sent in the POST request
     const cartItemData = {
       price: item.price,
       image: item.image,
+      Email:loginEmail,
       item: item.name,
-      Email:loginEmail
     };
 
     fetch("https://dendelion-54b09-default-rtdb.firebaseio.com/cart.json", {
@@ -99,14 +94,10 @@ const Kid = () => {
       .catch((error) => {
         console.error(error);
       });
-      swal("Item Added to Cart","","success")
+      swal("Item Added to Cart Successfully","","success")
   };
 
   const handleAddToWishlist = (item) => {
-    if(!isLogin){
-      swal("Login Pending","Login first to add into Favourite","error");
-      return ;
-    }
     const wishItemData = {
       price: item.price,
       image: item.image,
@@ -131,7 +122,7 @@ const Kid = () => {
       .catch((error) => {
         console.error(error);
       });
-      swal("Wishlist Added Successfully","","success")
+      swal(" Wishlist Added Successfully","","success")
   };
 
   const handleCardHover = (itemId) => {
@@ -142,7 +133,7 @@ const Kid = () => {
     <>
       <Navbar />
       <div>
-        <h5 className={styles.headingman}>KID</h5>
+        <h5 className={styles.headingman}>TOPWEAR</h5>
       </div>
       <div className={styles.arrowdown}></div>
       <div className={styles.parent}>
@@ -191,7 +182,7 @@ const Kid = () => {
                     </button>
                   )}
                   {wishlistItems.includes(item.id) ? (
-                    <button className={styles.addedButton1}>Added to Wishlist</button>
+                    <button className={styles.addedButton}>Added to Wishlist</button>
                   ) : (
                     <button
                       className={styles.addToWishlistButton}
@@ -208,7 +199,7 @@ const Kid = () => {
             </div>
           ))
         ) : (
-          <img className={styles.loadinggif} src="https://media2.giphy.com/media/xT9DPldJHzZKtOnEn6/200w.webp?cid=ecf05e47yjbr7ay23k1r38hk0j4ztk7tkzro9u1luo1r9f06&ep=v1_gifs_search&rid=200w.webp&ct=g"/>
+            <img className={styles.loadinggif} src="https://media2.giphy.com/media/xT9DPldJHzZKtOnEn6/200w.webp?cid=ecf05e47yjbr7ay23k1r38hk0j4ztk7tkzro9u1luo1r9f06&ep=v1_gifs_search&rid=200w.webp&ct=g"/>
         )}
       </div>
       <Footer />
@@ -216,4 +207,4 @@ const Kid = () => {
   );
 };
 
-export default Kid;
+export default Topwear;

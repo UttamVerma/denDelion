@@ -1,124 +1,138 @@
-.firstpartfooter{
-    background-color: black;
+.firstpartfooter {
+  background-color: black;
 }
-.headingtext{
-    color: white;
-    padding: 0px;
-
+.headingtext {
+  color: white;
+  padding: 0px;
 }
-.radiobuttonwrapper{
-    color: white;
+.radiobuttonwrapper {
+  color: white;
 }
-.privacypolicynewsletter{
-    color: white;
+.privacypolicynewsletter {
+  color: white;
 }
-.secondpartfooter{
-    background-color: gainsboro;
+.secondpartfooter {
+  background-color: gainsboro;
 }
-.socialheader{
-    font-weight: 700;
-    padding-top: 40px;
-    font-size: 24px;
-    text-transform: none;
-    margin-top: 50px;
-    color: rgb(112, 110, 110);
+.socialheader {
+  font-weight: 700;
+  padding-top: 40px;
+  font-size: 24px;
+  text-transform: none;
+  margin-top: 50px;
+  color: rgb(112, 110, 110);
 }
 
 .footer {
-    display: flex;
-    margin-top: 30%;
+  display: flex;
+  margin-top: auto;
+}
+
+.firstpartfooter {
+  flex: 1;
+  background-color: black;
+}
+
+.secondpartfooter {
+  flex: 1;
+  background-color: gainsboro;
+}
+.gender {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 209px;
+  margin-top: 9px;
+}
+
+.radiobuttonwrapper {
+  display: flex;
+  align-items: center;
+}
+.headingtext {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  /* padding-bottom: 4px; */
+  text-align: center;
+  border-radius: 4px;
+}
+.inputfooter {
+  background-color: #f6f6f6;
+  font-size: 12px;
+  margin-top: -50px;
+  width: 45%;
+  border: none;
+  padding: 10px;
+}
+
+.learnmoretext {
+  text-decoration: none;
+  color: white;
+}
+
+.youtubeicon {
+  height: 53px;
+}
+.facebookicon {
+  height: 53px;
+}
+.instagramicon {
+  height: 53px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.social-icon {
+  height: 33px;
+  margin: 0 24px;
+}
+#woman {
+  margin-left: 10px;
+}
+#formFemaleId {
+  margin-left: 30px;
+  width: 22px;
+  height: 22px;
+}
+#formMaleId {
+  width: 22px;
+  height: 22px;
+}
+#man {
+  margin-left: 10px;
+}
+.copyright {
+  font-size: 12px;
+  text-align: start;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.signupbutton {
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 90px 10px 90px;
+  margin-bottom: 30px;
+}
+
+/* Add a media query to adjust the layout when the screen size is smaller */
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column; /* Change the flex direction to column */
   }
-  
-  .firstpartfooter {
-    flex: 1;
-    background-color: black;
-  }
-  
   .secondpartfooter {
-    flex: 1;
-    background-color: gainsboro;
-  }
-  .gender {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 209px;
-    margin-top: 9px;
-  }
-  
-  .radiobuttonwrapper {
-    display: flex;
-    align-items: center;
-  }
-  .headingtext{
-    font-size: 24px;
-    font-weight: 700;
-    color: #fff;
-    /* padding-bottom: 4px; */
-    text-align: center;
-    border-radius: 4px;
-  }
-  .inputfooter{
-    background-color: #f6f6f6;
-    font-size: 12px;
-    margin-top: -50px;
-    width: 45%;
-    border: none;
-    padding: 10px;
-    
+    order: 1; /* Change the order to move the second part above the first part */
   }
 
-  .learnmoretext{
-    text-decoration: none;
-    color: white;
+  .firstpartfooter {
+    order: 2; /* Change the order to move the first part below the second part */
   }
 
-  .youtubeicon{
-    height: 53px;
-  }
-  .facebookicon{
-    height: 53px;
-  }
-  .instagramicon{
-    height: 53px;
-  }
-
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
-  }
-  
-  .social-icon {
-    height: 33px;
-    margin: 0 24px;
-  }
-  #woman{
-    margin-left: 10px;
-  }
-  #formFemaleId{
-    margin-left: 30px;
-    width: 22px;
-    height: 22px;
-  }
-  #formMaleId{
-    width: 22px;
-    height: 22px;
-  }
-  #man{
-    margin-left: 10px;
-  }
-  .copyright{
-    font-size: 12px;
-    text-align: start;
-    margin-left: 40px;
-    margin-top: 30px;
-  }
-  .signupbutton{
-    color: white;
-    background-color: black;
-    border: 2px solid white;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 10px 90px 10px 90px;
-    margin-bottom: 30px;
-    }
+ 
+}
