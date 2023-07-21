@@ -75,3 +75,31 @@
   margin: auto;
  
 }
+
+/* Your existing styles */
+
+/* Media Query for screen sizes less than or equal to 768px */
+@media only screen and (max-width: 768px) {
+  .signupparent {
+    /* Add your responsive styles here for the "Hi There!" section */
+    /* For example, you can adjust the font size or margin */
+    font-size: 18px;
+    margin-bottom: 20px; /* Add desired spacing between sections */
+  }
+
+  .para {
+    /* Add your responsive styles here for the "Profile" section */
+    /* For example, you can change the flex direction to stack the elements vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .hithere{
+    width: 100%;
+    font-size: 25px;
+  }
+  .signupparent{
+    width: 60%;
+  }
+}

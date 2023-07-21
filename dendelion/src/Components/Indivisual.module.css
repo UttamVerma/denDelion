@@ -100,3 +100,119 @@
     /* margin-left: 160%; */
     /* margin-bottom: 55%; */
   }
+
+
+  /* Your existing styles */
+
+/* Media Query for screen sizes less than or equal to 768px */
+@media only screen and (max-width: 768px) {
+    .parentdiv {
+      /* Add your responsive styles here for the parent div */
+      /* For example, you can change the flex direction or adjust margins/padding */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .theimage{
+        height: 79%;
+        width: 79%;
+        margin-left: 8%;
+    }
+  
+    .parentdivofcontent {
+      /* Add your responsive styles here for the content div */
+      /* For example, you can change the font size or adjust margins/padding */
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  
+    /* Add other responsive styles for the rest of the elements as needed */
+  }
+  
+
+
+  @media only screen and (max-width: 668px) {
+    .parentdiv {
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .theimage{
+        height: 69%;
+        width: 100%;
+        margin-left: 8%;
+    }
+  
+    .parentdivofcontent {
+
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  
+  }
+
+  @media only screen and (max-width: 508px) {
+    .parentdiv {
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .theimage{
+        height: 60%;
+        width: 100%;
+        margin-left: 8%;
+    }
+  
+    .parentdivofcontent {
+
+      font-size: 10px;
+      margin-top: 10px;
+    }
+    .addfav{
+        width: 80%;
+        height: 7vh;
+        text-transform: uppercase;
+        font-family: "Scto_Grotesk_Regular";
+        font-family: var(--fontFamily);
+        font-size: .875rem;
+        cursor: pointer;
+        font-weight: 700;
+        letter-spacing: .0625rem;
+        background-color: #000;
+        color: #fff;
+        margin-right: 19%;
+        margin-top: 3vh;
+        border: none;
+        text-decoration: none;
+    }
+  
+  }
+
+  @media only screen and (max-width: 418px) {
+    .parentdiv {
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .theimage{
+        height: 60%;
+        width: 100%;
+        margin-left: 8%;
+    }
+  
+    .parentdivofcontent {
+
+      font-size: 10px;
+      margin-top: 10px;
+    }
+  
+  }
+
+  

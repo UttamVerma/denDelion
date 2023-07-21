@@ -1,158 +1,158 @@
-.homepagegif{
-    /* height: 100%; */
-    margin-top: -10px;
-    /* height: 590px; */
-    width: 100%;
-    /* background-image: url("https://dibackend.dieselindia.com/banner/1688714430320-635_2.gif?compress=true&q=70"); */
+.homepagegif {
+  /* height: 100%; */
+  margin-top: -10px;
+  /* height: 590px; */
+  width: 100%;
+  /* background-image: url("https://dibackend.dieselindia.com/banner/1688714430320-635_2.gif?compress=true&q=70"); */
 }
-.homepageiamge{
-    width: 100%;
-    margin-top: 0.7%;
+.homepageiamge {
+  width: 100%;
+  margin-top: 0.7%;
 }
 
 .container {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .buttoncontainer {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    /* margin: auto; */
-  }
-  
-  .imagebutton {
-    margin: 0 5px;
-    /* margin:auto; */
-    height: 20px;
-    margin-top: -260px;
-    font-family: "Scto_Grotesk_Regular";
-    font-family: var(--fontFamily);
-    font-size: 14px;
-    color: #fff;
-    /* margin: 0 0 10px; */
-    padding: 13px 35px;
-    background: #e31f2e;
-    font-weight: 700;
-    border: 1px solid #e31f2e;
-    display: inline-block;
-    margin-left: 30px;
-    cursor: pointer;
-  }
-  .imagebutton:hover{
-    background-color: transparent;
-    color:#e31f2e; 
-    border: 1px solid red;
-  }
-  .imagebutton1{
-    margin: 0 5px;
-    /* margin:auto; */
-    margin-top: -260px;
-    height: 20px;
-    font-family: "Scto_Grotesk_Regular";
-    font-family: var(--fontFamily);
-    font-size: 14px;
-    color: #fff;
-    /* margin: 0 0 10px; */
-    padding: 13px 30px;
-    background: #e31f2e;
-    font-weight: 700;
-    border: 1px solid #e31f2e;
-    /* display: inline-block; */
-    margin-right: 50px;
-    cursor: pointer;
-  }
-  .imagebutton1:hover{
-    background-color: transparent;
-    color:#e31f2e; 
-    border: 1px solid red;
-  }
-  .headingtext{
-    font-size: 35px;
-    display: flex;
-    margin-left: 30px;
-    margin-top: 90px;
-  }
-  #man{
-    position: relative;
-    color: red;
-    text-decoration: none;
-        font-weight: 700;
-    font-size: 30px;
-    margin-bottom: 20px;
-    display: flex;
-    margin-left: 30px;
-  }
-  #woman{
-    position: relative;
-    text-decoration: none;
-    /* font-size: 35px; */
-    color: black;
-    font-weight: 700;
-    font-size: 30px;
-    margin-bottom: 20px;
-    display: flex;
-  }
-  #midman{
-    font-size: 30px;
-    color: black;
-    margin-left: 5px;
-    margin-right: 5px;
-    /* display: flex; */
-  }
-  .deskpara{
-    /* text-align: center; */
-    /* display: block;
+  position: relative;
+  display: inline-block;
+}
+
+.buttoncontainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  /* margin: auto; */
+}
+
+.imagebutton {
+  margin: 0 5px;
+  /* margin:auto; */
+  height: 20px;
+  margin-top: -260px;
+  font-family: "Scto_Grotesk_Regular";
+  font-family: var(--fontFamily);
+  font-size: 14px;
+  color: #fff;
+  /* margin: 0 0 10px; */
+  padding: 13px 35px;
+  background: #e31f2e;
+  font-weight: 700;
+  border: 1px solid #e31f2e;
+  display: inline-block;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.imagebutton:hover {
+  background-color: transparent;
+  color: #e31f2e;
+  border: 1px solid red;
+}
+.imagebutton1 {
+  margin: 0 5px;
+  /* margin:auto; */
+  margin-top: -260px;
+  height: 20px;
+  font-family: "Scto_Grotesk_Regular";
+  font-family: var(--fontFamily);
+  font-size: 14px;
+  color: #fff;
+  /* margin: 0 0 10px; */
+  padding: 13px 30px;
+  background: #e31f2e;
+  font-weight: 700;
+  border: 1px solid #e31f2e;
+  /* display: inline-block; */
+  margin-right: 50px;
+  cursor: pointer;
+}
+.imagebutton1:hover {
+  background-color: transparent;
+  color: #e31f2e;
+  border: 1px solid red;
+}
+.headingtext {
+  font-size: 35px;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 90px;
+}
+#man {
+  position: relative;
+  color: red;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  margin-left: 30px;
+}
+#woman {
+  position: relative;
+  text-decoration: none;
+  /* font-size: 35px; */
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+  display: flex;
+}
+#midman {
+  font-size: 30px;
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+  /* display: flex; */
+}
+.deskpara {
+  /* text-align: center; */
+  /* display: block;
    
     /* box-sizing: border-box;  */
-    display: flex;
-    margin-top: -30px;
-    margin-left: 50px;
-    width: 34%;
-    /* height: 390px; */
-  }
-  .fyf{
-    align-items: start;
-    display: flex;
-    /* gap: 50px; */
-    /* margin-right: 100px; */
-  }
-  .fyf2{
-    display: flex;
-    height: 300px;
-    width: 60%;
-    /* border: 1px solid black; */
-    margin-left: -500px;
-    margin-top: 50px;
-    gap: 80px;
-  }
-  .tapered{
-    width: 35%;
-    height: 100px;
-    /* margin-bottom: 130px;  */
-  }
+  display: flex;
+  margin-top: -30px;
+  margin-left: 50px;
+  width: 34%;
+  /* height: 390px; */
+}
+.fyf {
+  align-items: start;
+  display: flex;
+  /* gap: 50px; */
+  /* margin-right: 100px; */
+}
+.fyf2 {
+  display: flex;
+  height: 300px;
+  width: 60%;
+  /* border: 1px solid black; */
+  margin-left: -500px;
+  margin-top: 50px;
+  gap: 80px;
+}
+.tapered {
+  width: 35%;
+  height: 100px;
+  /* margin-bottom: 130px;  */
+}
 
-  .image{
-    width: 165%;
-    height: 40vh;
-  }
-  #fittypes{
-    margin-right: -70px;
-    font-size: 18px;
-    margin-top: -3px;
-    /* margin-bottom: 130px; */
-  }
-.diesellibimage{
+.image {
+  width: 165%;
+  height: 40vh;
+}
+#fittypes {
+  margin-right: -70px;
+  font-size: 18px;
+  margin-top: -3px;
+  /* margin-bottom: 130px; */
+}
+.diesellibimage {
   width: 100%;
   display: flex;
 }
-.diesellib{
+.diesellib {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.showresponse{
+.showresponse {
   font-family: "Scto_Grotesk_Regular";
   font-family: var(--fontFamily);
   font-size: 14px;
@@ -166,23 +166,23 @@
   margin: 15px 10px 10px 0;
   text-decoration: none;
   display: flex;
-  margin-top:-180px;
+  margin-top: -180px;
   margin-left: 580px;
 }
-#backrgroundcolor{
+#backrgroundcolor {
   background-color: #fff;
   border: 1px solid #fff;
   /* position: fixed; */
   z-index: 113;
 }
-.salepara{
+.salepara {
   /* display: flex; */
   text-align: left;
-    margin-top: -30px;
-    margin-left: 30px;
-    width: 70%;
+  margin-top: -30px;
+  margin-left: 30px;
+  width: 70%;
 }
-.saleimage{
+.saleimage {
   width: 100%;
   height: 60vh;
   display: flex;
@@ -190,41 +190,40 @@
   /* margin-left: -300px; */
 }
 
-#saleitemprice{
+#saleitemprice {
   font-size: 18px;
-  letter-spacing:.5px;
+  letter-spacing: 0.5px;
   display: flex;
   margin-left: 5%;
 }
-#saleitemname{
+#saleitemname {
   /* display: flex; */
   width: 100%;
   /* margin-right: 15%; */
   text-align: center;
 }
-.salepic1{
+.salepic1 {
   display: flex;
   width: 50%;
   width: 100%;
   overflow: hidden;
 }
-.automaticimages{
-  display: flex; 
-  
+.automaticimages {
+  display: flex;
+
   margin-right: 30px;
   /* margin-top: 40px; */
   display: inline-block;
   width: 80%;
   transition: transform 0.5s ease-in-out;
-
 }
 
-.saleimage{
+.saleimage {
   display: flex;
   width: 110%;
 }
 
-.salepic{
+.salepic {
   width: 95%;
   margin: auto;
   display: flex;
@@ -233,34 +232,34 @@
   /* justify-content: space-between; */
 }
 
-.first{
+.first {
   width: 30%;
   margin-left: 50px;
 }
-#shopnowbutton{
-    padding: 15px;
-    /* text-transform: uppercase; */
-    font-weight: 700;
-    background: #000;
-    color: #fff;
-    /* display: inline-block; */
-    /* margin-top: 120px; */
-    /* margin-left: -80px; */
-    /* height: 40px; */
-    /* width: 40px;  */
-    /* width:  150.69px; */
-    display: flex;
-    text-decoration: none;
-    /* margin-top: 5px; */
+#shopnowbutton {
+  padding: 15px;
+  /* text-transform: uppercase; */
+  font-weight: 700;
+  background: #000;
+  color: #fff;
+  /* display: inline-block; */
+  /* margin-top: 120px; */
+  /* margin-left: -80px; */
+  /* height: 40px; */
+  /* width: 40px;  */
+  /* width:  150.69px; */
+  display: flex;
+  text-decoration: none;
+  /* margin-top: 5px; */
 }
 
-.shopBtn{
+.shopBtn {
   background: #000;
   margin-top: 15px;
   color: #fff;
   border: none;
 }
-#headingtextsale{
+#headingtextsale {
   font-size: 20px;
   /* padding-bottom: -30px;  */
   margin-left: 30px;
@@ -269,25 +268,24 @@
   font-weight: 600;
   display: flex;
 }
-.headingtextsale1{
+.headingtextsale1 {
   padding-bottom: 5px;
 }
 
-.selectcategory{
-width: 85%;
-display: flex;
-gap: 18px;
-margin-left: 115px;
-
+.selectcategory {
+  width: 85%;
+  display: flex;
+  gap: 18px;
+  margin-left: 115px;
 }
-.selectcategoryimage{
+.selectcategoryimage {
   width: 100%;
   display: flex;
 }
 /* .selectcategoryparentimage{
   display: flex;
 } */
-.hieglight{
+.hieglight {
   width: 105%;
   height: 63vh;
   display: flex;
@@ -340,7 +338,7 @@ margin-left: 115px;
   padding: 10px;
   cursor: pointer;
 }
-.alleightimage{
+.alleightimage {
   width: 120px;
   gap: 30px;
 }
@@ -351,7 +349,6 @@ margin-left: 115px;
   width: 120px;
   margin-left: 100px;
   gap: 30px;
- 
 }
 
 .topimages {
@@ -375,29 +372,26 @@ margin-left: 115px;
   font-size: 18px;
 }
 
-#saleitemname{
+#saleitemname {
   display: flex;
   padding-left: 120px;
 }
-#saleitemprice{
+#saleitemprice {
   display: flex;
   padding-left: 100px;
 }
-#selectthings{
+#selectthings {
   margin: auto;
   width: 80%;
-  display:  flex;
+  display: flex;
   /* border: 1px solid black; */
   font-size: 14px;
   margin-left: 60px;
 }
 
-
-
 /* Add this CSS to your existing styles */
 
 /* Flex container for both top and bottom images */
-
 
 /* Add a media query to change the flex layout for smaller screen sizes */
 @media (max-width: 768px) {
@@ -408,5 +402,428 @@ margin-left: 115px;
 
   .eightimage {
     flex: 0 0 100%; /* Images will take the full width of the container on smaller screens */
+  }
+}
+@media (max-width: 768px) {
+  .homepageiamge {
+    /* Adjust the image width and height as per your preference */
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .homepagegif {
+    /* height: 100%; */
+    margin-top: -10px;
+    /* height: 590px; */
+    width: 100%;
+    /* background-image: url("https://dibackend.dieselindia.com/banner/1688714430320-635_2.gif?compress=true&q=70"); */
+  }
+  .homepageiamge {
+    width: 100%;
+    margin-top: 0.7%;
+  }
+
+  .container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .buttoncontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    /* margin: auto; */
+  }
+
+  .imagebutton {
+    margin: 0 5px;
+    /* margin:auto; */
+    height: 15px;
+    margin-top: -240px;
+    font-family: "Scto_Grotesk_Regular";
+    font-family: var(--fontFamily);
+    font-size: 10px;
+    color: #fff;
+    /* margin: 0 0 10px; */
+    padding: 5px 10px;
+    background: #e31f2e;
+    font-weight: 700;
+    border: 1px solid #e31f2e;
+    display: inline-block;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+  .imagebutton:hover {
+    background-color: transparent;
+    color: #e31f2e;
+    border: 1px solid red;
+  }
+  .imagebutton1 {
+    margin: 0 5px;
+    /* margin:auto; */
+    margin-top: -240px;
+   
+    height: 15px;
+    font-family: "Scto_Grotesk_Regular";
+    font-family: var(--fontFamily);
+    font-size: 10px;
+    color: #fff;
+    /* margin: 0 0 10px; */
+    padding: 5px 10px;
+    background: #e31f2e;
+    font-weight: 700;
+    border: 1px solid #e31f2e;
+    /* display: inline-block; */
+    margin-right: 50px;
+    cursor: pointer;
+  }
+  .imagebutton1:hover {
+    background-color: transparent;
+    color: #e31f2e;
+    border: 1px solid red;
+  }
+  .headingtext {
+    font-size: 25px;
+    display: flex;
+    /* margin-left: 30px; */
+    margin-top: 90px;
+  }
+  #man {
+    position: relative;
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    /* margin-left: 30px; */
+  }
+  #woman {
+    position: relative;
+    text-decoration: none;
+    /* font-size: 35px; */
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  #midman {
+    font-size: 30px;
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* display: flex; */
+  }
+  .deskpara {
+    /* text-align: center; */
+    /* display: block;
+   
+    /* box-sizing: border-box;  */
+    display: flex;
+    margin-top: -30px;
+    margin-left: 10px;
+    width: 70%;
+    /* height: 390px; */
+  }
+  .fyf {
+    align-items: start;
+    display: block;
+    margin-top: -150px;
+    /* gap: 50px; */
+    /* margin-right: 100px; */
+  }
+  .fyf2 {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-left: -20px;
+    margin-top: 50px;
+    gap: 10px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(2,1fr); */
+  }
+  .tapered {
+    width: 35%;
+    height: 30px;
+    /* margin-bottom: 130px;  */
+  }
+
+  .image {
+    width: 165%;
+    height: 40vh;
+  }
+  #fittypes {
+    margin-right: -70px;
+    font-size: 10px;
+    margin-top: -3px;
+    /* margin-bottom: 130px; */
+  }
+  .diesellibimage {
+    width: 100%;
+    display: flex;
+  }
+  .diesellib {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .showresponse {
+    font-family: "Scto_Grotesk_Regular";
+    font-family: var(--fontFamily);
+    font-size: 14px;
+    color: #000;
+    padding: 10px 40px;
+    background-color: #fff;
+    font-weight: 700;
+    border: 1px solid #fff;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 15px 10px 10px 0;
+    text-decoration: none;
+    display: flex;
+    margin-top: -180px;
+    margin-left: 580px;
+  }
+  #backrgroundcolor {
+    background-color: #fff;
+    border: 1px solid #fff;
+    /* position: fixed; */
+    z-index: 113;
+  }
+  .salepara {
+    display: flex;
+    text-align: center;
+    margin-top: -30px;
+    /* margin-left: 30px; */
+    width: 200%;
+  }
+  .saleimage {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+
+  #saleitemprice {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    display: flex;
+    margin-left: 5%;
+    text-align: left;
+  }
+  #saleitemname {
+    /* display: flex; */
+    width: 100%;
+    /* margin-right: 15%; */
+    text-align: left;
+    margin-right: 20px;
+  }
+  .salepic1 {
+    /* display: flex; */
+    width: 50%;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .automaticimages {
+    display: flex;
+
+    margin-right: 30px;
+    /* margin-top: 40px; */
+    display: inline-block;
+    width: 80%;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .saleimage {
+    display: flex;
+    width: 100%;
+    height: 300px;
+  }
+
+  .salepic {
+    width: 100%;
+    margin: auto;
+    /* display: flex; */
+    margin-top: 5%;
+    /* border: 1px solid red; */
+    /* justify-content: space-between; */
+    display: block;
+  }
+
+  .first {
+    width: 30%;
+    margin-left: 50px;
+  }
+  #shopnowbutton {
+    padding: 15px;
+    /* text-transform: uppercase; */
+    font-weight: 700;
+    background: #000;
+    color: #fff;
+    /* display: inline-block; */
+    /* margin-top: 120px; */
+    /* margin-left: -80px; */
+    /* height: 40px; */
+    /* width: 40px;  */
+    /* width:  150.69px; */
+    display: flex;
+    text-decoration: none;
+    /* margin-top: 5px; */
+  }
+
+  .shopBtn {
+    background: #000;
+    margin-top: 15px;
+    color: #fff;
+    border: none;
+  }
+  #headingtextsale {
+    font-size: 15px;
+    /* padding-bottom: -30px;  */
+    /* margin-left: 30px; */
+    margin-bottom: 5px;
+    /* margin-bottom: -40px; */
+    font-weight: 600;
+    display: flex;
+  }
+  .headingtextsale1 {
+    padding-bottom: 5px;
+  }
+
+  .selectcategory {
+    width: 85%;
+    display: flex;
+    gap: 10px;
+    margin-left: 115px;
+  }
+  .selectcategoryimage {
+    width: 60%;
+    display: flex;
+  }
+  .selectcategoryparentimage{
+  /* display: flex; */
+  margin-left: -60px;
+}
+  .hieglight {
+    width: 105%;
+    height: 63vh;
+    display: flex;
+    margin-top: 40px;
+  }
+  .thefourparent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-left: 10px;
+  }
+
+  .thefour {
+    flex-basis: 50%;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .thefourimage {
+    width: 100%;
+    height: 240px;
+    gap: 10px;
+  }
+
+  .thefour {
+    position: relative;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  .overlayText {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-left: 130px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .alleightimage {
+    width: 120px;
+    gap: 30px;
+    margin-bottom: -200px;
+  }
+  .parenteightimage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin-left: 100px;
+    gap: 20px;
+  }
+
+  .topimages {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 120px;
+    gap: 183px;
+    margin-top: 50px;
+  }
+
+  .bottomimages {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    gap: 380px;
+    display: none;
+  }
+  .image-text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  #saleitemname {
+    display: flex;
+    /* padding-left: 120px; */
+    margin-left: -50%;
+  }
+  #saleitemprice {
+    display: flex;
+    /* padding-left: 100px; */
+    margin-left: -45%;
+  }
+  #selectthings {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    /* border: 1px solid black; */
+    font-size: 14px;
+    margin-left: -1px;
+    font-size: 14px;
+  }
+  .diesellib{
+    margin-top: 50%;
+  }
+  .selectcategory{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
   }
 }

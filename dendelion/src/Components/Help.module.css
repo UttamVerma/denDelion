@@ -55,3 +55,34 @@
   margin: auto;
  
 }
+
+
+/* Your existing styles */
+
+/* Media Query for screen sizes less than or equal to 768px */
+@media only screen and (max-width: 768px) {
+    .helpparent {
+      /* Add your responsive styles here for the parent div */
+      /* For example, you can change the flex direction to stack the elements vertically */
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+      width: 180%;
+    }
+  
+    .clientserviceparent {
+      /* Add your responsive styles here for the "Client Service" section */
+      /* For example, you can adjust margins/padding to create spacing between sections */
+      margin-top: 20px; /* Add desired spacing between sections */
+      margin-left: 9%;
+      font-size: 14px;
+    }
+    .clientmail{
+        /* margin-right: auto; */
+        /* text-align: center;
+         */
+         margin-right: 5%;
+    }
+   
+  }
+  
