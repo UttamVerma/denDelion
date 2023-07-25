@@ -218,7 +218,8 @@
   transition: transform 0.5s ease-in-out;
 }
 
-.saleimage {
+.sale
+ {
   display: flex;
   width: 110%;
 }
@@ -511,11 +512,8 @@
     display: flex;
   }
   #midman {
-    font-size: 30px;
-    color: black;
-    margin-left: 5px;
-    margin-right: 5px;
-    /* display: flex; */
+    margin-top: -6px;
+    display: flex;
   }
   .deskpara {
     /* text-align: center; */
@@ -537,7 +535,7 @@
   }
   .fyf2 {
     display: flex;
-    height: 300px;
+    height: 190px;
     width: 100%;
     /* border: 1px solid black; */
     margin-left: -20px;
@@ -546,16 +544,18 @@
     /* display: grid; */
     /* grid-template-columns: repeat(2,1fr); */
   }
+
+  .image {
+    width: 165%;
+    height: 29vh;
+  }
   .tapered {
-    width: 35%;
+    width: 40%;
     height: 30px;
     /* margin-bottom: 130px;  */
   }
 
-  .image {
-    width: 165%;
-    height: 40vh;
-  }
+ 
   #fittypes {
     margin-right: -70px;
     font-size: 10px;
@@ -713,7 +713,7 @@
 }
   .hieglight {
     width: 105%;
-    height: 63vh;
+    height: 50vh;
     display: flex;
     margin-top: 40px;
   }

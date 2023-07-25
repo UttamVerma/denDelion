@@ -282,8 +282,9 @@
 @media all and (max-width: 500px) {
   .logo {
     width: auto;
-    height: 40px;
+    height: 35px;
     cursor: pointer;
+    margin-top: 5%;
   }
   .man {
     text-decoration: none;
@@ -567,11 +568,36 @@
     margin-top: 2%;
   }
 }
+
 @media all and (max-width: 415px) {
   .logo {
     width: auto;
-    height: 30px;
+    height: 27px;
     cursor: pointer;
-    margin-top: 8%;
+    margin-top: 16%;
+  }
+  .man{
+    font-size: 9px;
+  }
+  .woman{
+    font-size: 9px;
+  }
+  .kid{
+    font-size: 9px;
+  }
+  .profileicon{
+    height: 14px;
+  }
+  .searchicon{
+    height: 14px;
+  }
+  .questionicon{
+    height: 14px;
+  }
+  .hearticon{
+    height: 14px;
+  }
+  .shoppingbagicon{
+    height: 14px;
   }
 }
