@@ -246,7 +246,7 @@ let Homepage = () => {
               alt=""
               className={styles.hieglight}
             />
-            <p id={styles.saleitemname}>TAPERED</p>
+            <p id={styles.saleitemname}>T-SMITH-MON Slim Men Black Polo</p>
             <h2 id={styles.saleitemprice}>MRP 20,999.00</h2>
           </div>
           <div className={styles.automaticimages}>
@@ -256,8 +256,10 @@ let Homepage = () => {
               alt=""
               className={styles.hieglight}
             />
-            <p id={styles.saleitemname}>STRAIGHT</p>
-            <h2 id={styles.saleitemprice}>MRP 20,999.00</h2>
+            <p id={styles.saleitemname}>
+              1955 Straight Fit Man Blue Clean Jeans
+            </p>
+            <h2 id={styles.saleitemprice}>MRP 16,999.00</h2>
           </div>
           <div className={styles.automaticimages}>
             {" "}
