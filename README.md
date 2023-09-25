@@ -2,7 +2,7 @@
 Project Website completed by Me(solo) within a span of 6 days.
 
 # Brief Introduction
-It is a E-Commerce website it gives us service of providing about Clothing and other Accesserioes of Men , Woman and Kid.
+ It is an E-Commerce website it gives us service of providing about Clothing and other Accessories of Men, Woman and Kids.
 
 # Tech Stack Used
 1. For Frontend :- HTML | CSS | JAVASCRIPT | REACT | REACT ROUTER DOM
